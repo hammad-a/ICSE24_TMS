@@ -1,0 +1,23 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: log(response_time) ~ (1 | id) + (1 | id:domain) + (1 | id:condition) +      (1 | id:domain:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+  3646.7   3680.0  -1817.4   3634.7     1876 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.8096 -0.6984 -0.0741  0.6255  3.7461 
+
+Random effects:
+ Groups              Name        Variance Std.Dev.
+ id:domain:condition (Intercept) 0.001462 0.03824 
+ id:domain           (Intercept) 0.039365 0.19841 
+ id:condition        (Intercept) 0.012201 0.11046 
+ id                  (Intercept) 0.031123 0.17642 
+ Residual                        0.378019 0.61483 
+Number of obs: 1882, groups:  id:domain:condition, 138; id:domain, 48; id:condition, 46; id, 16
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  2.89087    0.05708   50.64

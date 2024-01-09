@@ -1,0 +1,26 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: log(response_time) ~ session_num + (1 | id) + (1 | stimulus)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+  2679.5   2707.2  -1334.8   2669.5     1877 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-4.2025 -0.6062 -0.0279  0.6001  4.3515 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ stimulus (Intercept) 0.22085  0.4699  
+ id       (Intercept) 0.04428  0.2104  
+ Residual             0.19382  0.4403  
+Number of obs: 1882, groups:  stimulus, 127; id, 16
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  2.99532    0.06900  43.412
+session_num -0.08293    0.01280  -6.481
+
+Correlation of Fixed Effects:
+            (Intr)
+session_num -0.176

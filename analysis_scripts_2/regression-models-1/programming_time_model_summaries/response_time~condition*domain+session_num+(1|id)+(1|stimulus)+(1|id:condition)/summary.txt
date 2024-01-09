@@ -1,0 +1,43 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: response_time ~ condition * domain + session_num + (1 | id) +      (1 | stimulus) + (1 | id:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+ 15243.0  15320.5  -7607.5  15215.0     1868 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.0890 -0.4865 -0.1330  0.3071  9.1793 
+
+Random effects:
+ Groups       Name        Variance Std.Dev.
+ stimulus     (Intercept) 134.41   11.593  
+ id:condition (Intercept)   4.87    2.207  
+ id           (Intercept)  15.44    3.929  
+ Residual                 153.71   12.398  
+Number of obs: 1882, groups:  stimulus, 127; id:condition, 46; id, 16
+
+Fixed effects:
+                   Estimate Std. Error t value
+(Intercept)        28.00623    2.40051  11.667
+conditionY         -0.84544    1.56934  -0.539
+conditionZ          0.08366    1.49826   0.056
+domainD            -8.56316    3.00286  -2.852
+domainE            -2.01227    2.71984  -0.740
+session_num        -1.99714    0.56000  -3.566
+conditionY:domainD  1.05827    1.88759   0.561
+conditionZ:domainD  1.84184    1.80919   1.018
+conditionY:domainE  1.77852    1.71666   1.036
+conditionZ:domainE  1.71763    1.65126   1.040
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanD domanE sssn_n cndY:D cndZ:D cndY:E
+conditionY  -0.274                                                        
+conditionZ  -0.285  0.493                                                 
+domainD     -0.602  0.172  0.177                                          
+domainE     -0.664  0.189  0.195  0.531                                   
+session_num -0.163 -0.139 -0.137  0.001  0.000                            
+cndtnY:dmnD  0.179 -0.581 -0.285 -0.293 -0.158 -0.003                     
+cndtnZ:dmnD  0.184 -0.284 -0.586 -0.301 -0.162 -0.001  0.485              
+cndtnY:dmnE  0.197 -0.640 -0.313 -0.157 -0.298 -0.002  0.532  0.259       
+cndtnZ:dmnE  0.201 -0.311 -0.642 -0.160 -0.304 -0.001  0.258  0.531  0.488

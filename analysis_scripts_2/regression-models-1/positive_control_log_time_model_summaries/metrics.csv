@@ -1,0 +1,820 @@
+formula,AIC,BIC
+log(response_time) ~ (1|id),1919.175012,1933.375218
+log(response_time) ~ (1|stimulus),1566.552359,1580.752565
+log(response_time) ~ (1|id:domain),1491.696072,1505.896277
+log(response_time) ~ (1|id:condition),1919.257725,1933.457931
+log(response_time) ~ (1|stimulus:condition),1703.989361,1718.189566
+log(response_time) ~ (1|id:domain:condition),1561.732809,1575.933015
+log(response_time) ~ (1|id) + (1|stimulus),1463.934622,1482.868230
+log(response_time) ~ (1|id) + (1|id:domain),1493.696072,1512.629679
+log(response_time) ~ (1|id) + (1|id:condition),1914.748230,1933.681837
+log(response_time) ~ (1|id) + (1|stimulus:condition),1612.943497,1631.877104
+log(response_time) ~ (1|id) + (1|id:domain:condition),1563.732809,1582.666417
+log(response_time) ~ (1|stimulus) + (1|id:domain),1383.619658,1402.553265
+log(response_time) ~ (1|stimulus) + (1|id:condition),1468.520366,1487.453974
+log(response_time) ~ (1|stimulus) + (1|stimulus:condition),1568.552359,1587.485967
+log(response_time) ~ (1|stimulus) + (1|id:domain:condition),1422.717342,1441.650949
+log(response_time) ~ (1|id:domain) + (1|id:condition),1482.118452,1501.052060
+log(response_time) ~ (1|id:domain) + (1|stimulus:condition),1432.468361,1451.401968
+log(response_time) ~ (1|id:domain) + (1|id:domain:condition),1483.790308,1502.723915
+log(response_time) ~ (1|id:condition) + (1|stimulus:condition),1614.939747,1633.873354
+log(response_time) ~ (1|id:condition) + (1|id:domain:condition),1563.732809,1582.666417
+log(response_time) ~ (1|stimulus:condition) + (1|id:domain:condition),1491.964004,1510.897611
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain),1385.619658,1409.286667
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:condition),1455.681534,1479.348544
+log(response_time) ~ (1|id) + (1|stimulus) + (1|stimulus:condition),1465.928690,1489.595700
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain:condition),1411.679996,1435.347005
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:condition),1484.118452,1507.785462
+log(response_time) ~ (1|id) + (1|id:domain) + (1|stimulus:condition),1434.468361,1458.135371
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:domain:condition),1485.790308,1509.457317
+log(response_time) ~ (1|id) + (1|id:condition) + (1|stimulus:condition),1605.179562,1628.846571
+log(response_time) ~ (1|id) + (1|id:condition) + (1|id:domain:condition),1565.732809,1589.399818
+log(response_time) ~ (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1493.914611,1517.581620
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:condition),1370.690755,1394.357764
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1385.350436,1409.017445
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1370.512851,1394.179861
+log(response_time) ~ (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1470.462164,1494.129173
+log(response_time) ~ (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1423.940459,1447.607469
+log(response_time) ~ (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1423.741319,1447.408329
+log(response_time) ~ (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1420.653787,1444.320797
+log(response_time) ~ (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1483.475114,1507.142123
+log(response_time) ~ (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1419.529692,1443.196701
+log(response_time) ~ (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1493.964004,1517.631013
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1372.690755,1401.091166
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1387.350436,1415.750847
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1372.512851,1400.913263
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1457.634411,1486.034822
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1413.679996,1442.080407
+log(response_time) ~ (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1412.763724,1441.164135
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1422.653787,1451.054199
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1485.475114,1513.875525
+log(response_time) ~ (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1421.529692,1449.930103
+log(response_time) ~ (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1495.914610,1524.315022
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1372.314989,1400.715400
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1370.585349,1398.985760
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1371.854394,1400.254805
+log(response_time) ~ (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1424.973053,1453.373464
+log(response_time) ~ (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1420.001300,1448.401711
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1374.314989,1407.448802
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1372.585349,1405.719162
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1373.854394,1406.988207
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1414.763724,1447.897537
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1422.001300,1455.135113
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1372.007156,1405.140970
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1374.007156,1411.874371
+log(response_time) ~ condition + (1|id),1920.227920,1943.894929
+log(response_time) ~ condition + (1|stimulus),1568.554523,1592.221533
+log(response_time) ~ condition + (1|id:domain),1489.334979,1513.001989
+log(response_time) ~ condition + (1|id:condition),1922.545052,1946.212061
+log(response_time) ~ condition + (1|stimulus:condition),1707.603288,1731.270298
+log(response_time) ~ condition + (1|id:domain:condition),1565.366489,1589.033498
+log(response_time) ~ condition + (1|id) + (1|stimulus),1464.271730,1492.672141
+log(response_time) ~ condition + (1|id) + (1|id:domain),1491.334979,1519.735390
+log(response_time) ~ condition + (1|id) + (1|id:condition),1917.167142,1945.567554
+log(response_time) ~ condition + (1|id) + (1|stimulus:condition),1616.352195,1644.752607
+log(response_time) ~ condition + (1|id) + (1|id:domain:condition),1567.366489,1595.766900
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain),1381.762514,1410.162925
+log(response_time) ~ condition + (1|stimulus) + (1|id:condition),1472.065047,1500.465458
+log(response_time) ~ condition + (1|stimulus) + (1|stimulus:condition),1570.554523,1598.954935
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain:condition),1426.017576,1454.417988
+log(response_time) ~ condition + (1|id:domain) + (1|id:condition),1482.926674,1511.327086
+log(response_time) ~ condition + (1|id:domain) + (1|stimulus:condition),1433.766435,1462.166847
+log(response_time) ~ condition + (1|id:domain) + (1|id:domain:condition),1483.940624,1512.341035
+log(response_time) ~ condition + (1|id:condition) + (1|stimulus:condition),1618.697006,1647.097417
+log(response_time) ~ condition + (1|id:condition) + (1|id:domain:condition),1567.366489,1595.766900
+log(response_time) ~ condition + (1|stimulus:condition) + (1|id:domain:condition),1495.625708,1524.026119
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain),1383.762514,1416.896327
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:condition),1457.934102,1491.067915
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|stimulus:condition),1466.271730,1499.405543
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain:condition),1414.181037,1447.314850
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:condition),1484.926674,1518.060487
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|stimulus:condition),1435.766435,1468.900249
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:domain:condition),1485.940624,1519.074437
+log(response_time) ~ condition + (1|id) + (1|id:condition) + (1|stimulus:condition),1608.687888,1641.821701
+log(response_time) ~ condition + (1|id) + (1|id:condition) + (1|id:domain:condition),1569.366489,1602.500302
+log(response_time) ~ condition + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1497.557904,1530.691717
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:condition),1371.881150,1405.014963
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1383.737983,1416.871796
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1371.216911,1404.350725
+log(response_time) ~ condition + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1474.010723,1507.144536
+log(response_time) ~ condition + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1427.314378,1460.448191
+log(response_time) ~ condition + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1427.070154,1460.203967
+log(response_time) ~ condition + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1422.724441,1455.858254
+log(response_time) ~ condition + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1484.325058,1517.458871
+log(response_time) ~ condition + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1421.521482,1454.655295
+log(response_time) ~ condition + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1497.625708,1530.759521
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1373.881150,1411.748365
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1385.737983,1423.605198
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1373.216911,1411.084126
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1459.934102,1497.801317
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1416.181037,1454.048252
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1415.347012,1453.214227
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1424.724441,1462.591656
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1486.325062,1524.192277
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1423.521482,1461.388697
+log(response_time) ~ condition + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1499.557904,1537.425119
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1373.597002,1411.464217
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1371.828802,1409.696017
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1372.747508,1410.614724
+log(response_time) ~ condition + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1428.371816,1466.239031
+log(response_time) ~ condition + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1422.143344,1460.010559
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1375.596991,1418.197608
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1373.828802,1416.429419
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1374.747508,1417.348125
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1417.347012,1459.947629
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1424.143344,1466.743961
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1373.369485,1415.970102
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1375.369485,1422.703504
+log(response_time) ~ domain + (1|id),1481.049520,1499.983127
+log(response_time) ~ domain + (1|stimulus),1492.681601,1511.615208
+log(response_time) ~ domain + (1|id:domain),1450.344013,1469.277621
+log(response_time) ~ domain + (1|id:condition),1485.696020,1504.629627
+log(response_time) ~ domain + (1|stimulus:condition),1530.699534,1549.633141
+log(response_time) ~ domain + (1|id:domain:condition),1465.198925,1484.132533
+log(response_time) ~ domain + (1|id) + (1|stimulus),1390.684478,1414.351487
+log(response_time) ~ domain + (1|id) + (1|id:domain),1450.791805,1474.458814
+log(response_time) ~ domain + (1|id) + (1|id:condition),1474.710792,1498.377802
+log(response_time) ~ domain + (1|id) + (1|stimulus:condition),1437.277751,1460.944760
+log(response_time) ~ domain + (1|id) + (1|id:domain:condition),1450.779435,1474.446444
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain),1345.380839,1369.047848
+log(response_time) ~ domain + (1|stimulus) + (1|id:condition),1394.986063,1418.653072
+log(response_time) ~ domain + (1|stimulus) + (1|stimulus:condition),1494.681601,1518.348610
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain:condition),1358.015136,1381.682146
+log(response_time) ~ domain + (1|id:domain) + (1|id:condition),1440.275630,1463.942639
+log(response_time) ~ domain + (1|id:domain) + (1|stimulus:condition),1394.060306,1417.727315
+log(response_time) ~ domain + (1|id:domain) + (1|id:domain:condition),1442.935733,1466.602742
+log(response_time) ~ domain + (1|id:condition) + (1|stimulus:condition),1440.711742,1464.378752
+log(response_time) ~ domain + (1|id:condition) + (1|id:domain:condition),1463.146308,1486.813317
+log(response_time) ~ domain + (1|stimulus:condition) + (1|id:domain:condition),1403.399991,1427.067001
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain),1345.846359,1374.246771
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:condition),1382.274270,1410.674681
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|stimulus:condition),1392.684478,1421.084889
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain:condition),1342.573716,1370.974127
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:condition),1441.532754,1469.933165
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|stimulus:condition),1394.458594,1422.859005
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:domain:condition),1443.493633,1471.894045
+log(response_time) ~ domain + (1|id) + (1|id:condition) + (1|stimulus:condition),1429.108854,1457.509265
+log(response_time) ~ domain + (1|id) + (1|id:condition) + (1|id:domain:condition),1452.779435,1481.179846
+log(response_time) ~ domain + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1389.209262,1417.609674
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:condition),1331.705620,1360.106031
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1347.267524,1375.667935
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1332.633906,1361.034317
+log(response_time) ~ domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1396.981404,1425.381815
+log(response_time) ~ domain + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1356.098845,1384.499256
+log(response_time) ~ domain + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1359.357487,1387.757899
+log(response_time) ~ domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1381.002133,1409.402544
+log(response_time) ~ domain + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1441.821717,1470.222128
+log(response_time) ~ domain + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1380.691509,1409.091921
+log(response_time) ~ domain + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1401.809675,1430.210086
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1332.958160,1366.091973
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1347.732223,1380.866037
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1333.225157,1366.358970
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1384.271733,1417.405547
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1344.573716,1377.707529
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1343.988532,1377.122346
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1382.340484,1415.474297
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1442.987500,1476.121313
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1381.246420,1414.380233
+log(response_time) ~ domain + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1391.209262,1424.343076
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1333.471885,1366.605698
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1331.933625,1365.067438
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1334.122863,1367.256676
+log(response_time) ~ domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1357.483017,1390.616830
+log(response_time) ~ domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1380.483684,1413.617497
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1334.734568,1372.601783
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1333.041301,1370.908516
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1334.713432,1372.580648
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1345.988532,1383.855748
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1381.602595,1419.469811
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1333.513178,1371.380394
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1334.621171,1377.221788
+log(response_time) ~ session_num + (1|id),1913.060350,1931.993958
+log(response_time) ~ session_num + (1|stimulus),1547.641565,1566.575173
+log(response_time) ~ session_num + (1|id:domain),1476.677572,1495.611180
+log(response_time) ~ session_num + (1|id:condition),1918.150479,1937.084086
+log(response_time) ~ session_num + (1|stimulus:condition),1677.855007,1696.788615
+log(response_time) ~ session_num + (1|id:domain:condition),1561.737614,1580.671221
+log(response_time) ~ session_num + (1|id) + (1|stimulus),1443.190595,1466.857604
+log(response_time) ~ session_num + (1|id) + (1|id:domain),1478.677572,1502.344582
+log(response_time) ~ session_num + (1|id) + (1|id:condition),1911.770828,1935.437838
+log(response_time) ~ session_num + (1|id) + (1|stimulus:condition),1590.998657,1614.665667
+log(response_time) ~ session_num + (1|id) + (1|id:domain:condition),1563.737614,1587.404623
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain),1361.372087,1385.039097
+log(response_time) ~ session_num + (1|stimulus) + (1|id:condition),1465.873412,1489.540422
+log(response_time) ~ session_num + (1|stimulus) + (1|stimulus:condition),1549.291325,1572.958334
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain:condition),1419.295276,1442.962286
+log(response_time) ~ session_num + (1|id:domain) + (1|id:condition),1474.823619,1498.490628
+log(response_time) ~ session_num + (1|id:domain) + (1|stimulus:condition),1408.070606,1431.737616
+log(response_time) ~ session_num + (1|id:domain) + (1|id:domain:condition),1474.317919,1497.984928
+log(response_time) ~ session_num + (1|id:condition) + (1|stimulus:condition),1611.419324,1635.086333
+log(response_time) ~ session_num + (1|id:condition) + (1|id:domain:condition),1563.737614,1587.404623
+log(response_time) ~ session_num + (1|stimulus:condition) + (1|id:domain:condition),1491.340705,1515.007715
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain),1363.372087,1391.772499
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:condition),1444.220774,1472.621185
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|stimulus:condition),1444.900173,1473.300585
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain:condition),1404.949438,1433.349849
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:condition),1476.823619,1505.224030
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|stimulus:condition),1410.070606,1438.471017
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:domain:condition),1476.317919,1504.718330
+log(response_time) ~ session_num + (1|id) + (1|id:condition) + (1|stimulus:condition),1592.647440,1621.047851
+log(response_time) ~ session_num + (1|id) + (1|id:condition) + (1|id:domain:condition),1565.737614,1594.138025
+log(response_time) ~ session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1493.267652,1521.668064
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:condition),1360.409145,1388.809556
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1362.150543,1390.550954
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1357.784926,1386.185337
+log(response_time) ~ session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1467.793863,1496.194275
+log(response_time) ~ session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1420.951127,1449.351538
+log(response_time) ~ session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1420.205208,1448.605619
+log(response_time) ~ session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1408.854432,1437.254843
+log(response_time) ~ session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1475.957034,1504.357446
+log(response_time) ~ session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1405.655169,1434.055580
+log(response_time) ~ session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1493.340705,1521.741117
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1362.409145,1395.542958
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1364.150543,1397.284356
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1359.784926,1392.918739
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1446.026487,1479.160300
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1406.949438,1440.083251
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1405.882718,1439.016531
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1410.854432,1443.988245
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1477.957034,1511.090848
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1407.655169,1440.788982
+log(response_time) ~ session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1495.267652,1528.401465
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1361.671722,1394.805535
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1359.783654,1392.917467
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1358.715760,1391.849573
+log(response_time) ~ session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1421.881904,1455.015717
+log(response_time) ~ session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1407.655169,1440.788982
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1363.671722,1401.538937
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1361.784926,1399.652141
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1360.715760,1398.582975
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1407.882717,1445.749932
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1409.655169,1447.522384
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1360.715760,1398.582975
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1362.715760,1405.316377
+log(response_time) ~ condition + domain + (1|id),1480.786989,1509.187400
+log(response_time) ~ condition + domain + (1|stimulus),1494.491751,1522.892162
+log(response_time) ~ condition + domain + (1|id:domain),1448.569368,1476.969779
+log(response_time) ~ condition + domain + (1|id:condition),1489.062249,1517.462660
+log(response_time) ~ condition + domain + (1|stimulus:condition),1533.428670,1561.829081
+log(response_time) ~ condition + domain + (1|id:domain:condition),1468.163489,1496.563901
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus),1390.797731,1423.931544
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain),1449.028778,1482.162591
+log(response_time) ~ condition + domain + (1|id) + (1|id:condition),1476.537474,1509.671287
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus:condition),1439.342758,1472.476571
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain:condition),1452.677801,1485.811614
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain),1343.951630,1377.085444
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:condition),1398.459611,1431.593424
+log(response_time) ~ condition + domain + (1|stimulus) + (1|stimulus:condition),1496.491751,1529.625564
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain:condition),1361.141008,1394.274821
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:condition),1441.644869,1474.778682
+log(response_time) ~ condition + domain + (1|id:domain) + (1|stimulus:condition),1395.556478,1428.690291
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:domain:condition),1443.506324,1476.640137
+log(response_time) ~ condition + domain + (1|id:condition) + (1|stimulus:condition),1444.258315,1477.392128
+log(response_time) ~ condition + domain + (1|id:condition) + (1|id:domain:condition),1466.381573,1499.515387
+log(response_time) ~ condition + domain + (1|stimulus:condition) + (1|id:domain:condition),1406.763711,1439.897524
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain),1344.411314,1382.278529
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:condition),1384.369167,1422.236382
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|stimulus:condition),1392.797731,1430.664946
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain:condition),1344.774803,1382.642018
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:condition),1442.760666,1480.627881
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|stimulus:condition),1395.966469,1433.833684
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:domain:condition),1444.036672,1481.903888
+log(response_time) ~ condition + domain + (1|id) + (1|id:condition) + (1|stimulus:condition),1431.834872,1469.702087
+log(response_time) ~ condition + domain + (1|id) + (1|id:condition) + (1|id:domain:condition),1454.677801,1492.545016
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1392.037186,1429.904401
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:condition),1333.344194,1371.211409
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1345.951630,1383.818845
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1333.660375,1371.527590
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1400.456196,1438.323411
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1359.428093,1397.295308
+log(response_time) ~ condition + domain + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1362.518515,1400.385730
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1383.399571,1421.266786
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1443.227487,1481.094702
+log(response_time) ~ condition + domain + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1382.952844,1420.820059
+log(response_time) ~ condition + domain + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1405.297429,1443.164644
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1334.477558,1377.078175
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1346.411314,1389.011931
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1334.214814,1376.815431
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1386.369167,1428.969784
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1346.774803,1389.375420
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1346.275759,1388.876376
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1384.679199,1427.279816
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1444.250760,1486.851377
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1383.502474,1426.103091
+log(response_time) ~ condition + domain + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1394.037186,1436.637803
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1335.172769,1377.773386
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1333.622603,1376.223220
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1335.311948,1377.912565
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1360.835035,1403.435652
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1382.957733,1425.558350
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1336.320081,1383.654100
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1334.606754,1381.940773
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1335.869314,1383.203333
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1348.275759,1395.609778
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1384.021436,1431.355455
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1335.291232,1382.625250
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1336.283385,1388.350805
+log(response_time) ~ domain + session_num + (1|id),1466.642421,1490.309430
+log(response_time) ~ domain + session_num + (1|stimulus),1474.088927,1497.755936
+log(response_time) ~ domain + session_num + (1|id:domain),1434.863047,1458.530056
+log(response_time) ~ domain + session_num + (1|id:condition),1483.326224,1506.993233
+log(response_time) ~ domain + session_num + (1|stimulus:condition),1508.368368,1532.035377
+log(response_time) ~ domain + session_num + (1|id:domain:condition),1461.254031,1484.921041
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus),1370.191236,1398.591647
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain),1435.409179,1463.809590
+log(response_time) ~ domain + session_num + (1|id) + (1|id:condition),1466.732858,1495.133269
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus:condition),1415.648216,1444.048628
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain:condition),1444.411949,1472.812360
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain),1322.704631,1351.105042
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:condition),1392.298318,1420.698729
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|stimulus:condition),1475.869173,1504.269584
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain:condition),1353.575198,1381.975610
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:condition),1432.908750,1461.309161
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|stimulus:condition),1368.829295,1397.229707
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:domain:condition),1432.889775,1461.290187
+log(response_time) ~ domain + session_num + (1|id:condition) + (1|stimulus:condition),1437.609536,1466.009947
+log(response_time) ~ domain + session_num + (1|id:condition) + (1|id:domain:condition),1460.484711,1488.885122
+log(response_time) ~ domain + session_num + (1|stimulus:condition) + (1|id:domain:condition),1398.112157,1426.512568
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain),1323.289430,1356.423243
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:condition),1371.108612,1404.242425
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition),1372.029818,1405.163631
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain:condition),1335.017879,1368.151692
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:condition),1433.906410,1467.040224
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition),1369.540402,1402.674215
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:domain:condition),1433.518990,1466.652803
+log(response_time) ~ domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition),1417.124706,1450.258519
+log(response_time) ~ domain + session_num + (1|id) + (1|id:condition) + (1|id:domain:condition),1446.411949,1479.545762
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1381.026635,1414.160448
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition),1321.498832,1354.632646
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1323.782503,1356.916316
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1319.341957,1352.475770
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1394.285799,1427.419612
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1353.062848,1386.196662
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1354.792727,1387.926541
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1369.293052,1402.426866
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1434.277372,1467.411185
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1366.173430,1399.307244
+log(response_time) ~ domain + session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1398.146471,1431.280284
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1322.425680,1360.292895
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1324.393832,1362.261047
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1320.013259,1357.880474
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1373.025724,1410.892939
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1337.017879,1374.885094
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1336.278744,1374.145959
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1370.263572,1408.130787
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1435.144106,1473.011321
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1366.933167,1404.800382
+log(response_time) ~ domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1383.026635,1420.893850
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1322.978613,1360.845828
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1321.286334,1359.153549
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1320.456271,1358.323486
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1354.359758,1392.226973
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1368.173430,1406.040646
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1323.909563,1366.510180
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1322.005798,1364.606415
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1321.142572,1363.743189
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1338.278744,1380.879361
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1368.933167,1411.533784
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1322.445728,1365.046345
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1323.142572,1370.476591
+log(response_time) ~ condition + session_num + (1|id),1911.930188,1940.330600
+log(response_time) ~ condition + session_num + (1|stimulus),1546.482801,1574.883213
+log(response_time) ~ condition + session_num + (1|id:domain),1469.229571,1497.629982
+log(response_time) ~ condition + session_num + (1|id:condition),1920.494180,1948.894592
+log(response_time) ~ condition + session_num + (1|stimulus:condition),1680.690236,1709.090648
+log(response_time) ~ condition + session_num + (1|id:domain:condition),1564.817497,1593.217908
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus),1440.037102,1473.170916
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain),1471.229571,1504.363384
+log(response_time) ~ condition + session_num + (1|id) + (1|id:condition),1912.274306,1945.408119
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus:condition),1593.982068,1627.115881
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain:condition),1566.817497,1599.951310
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain),1353.923305,1387.057118
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:condition),1468.479599,1501.613413
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|stimulus:condition),1548.375100,1581.508914
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain:condition),1421.273979,1454.407792
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:condition),1470.542028,1503.675841
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|stimulus:condition),1407.275401,1440.409215
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:domain:condition),1469.672321,1502.806134
+log(response_time) ~ condition + session_num + (1|id:condition) + (1|stimulus:condition),1614.660968,1647.794781
+log(response_time) ~ condition + session_num + (1|id:condition) + (1|id:domain:condition),1566.817497,1599.951310
+log(response_time) ~ condition + session_num + (1|stimulus:condition) + (1|id:domain:condition),1494.433986,1527.567799
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain),1355.923305,1393.790520
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:condition),1442.017718,1479.884933
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition),1442.031742,1479.898957
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain:condition),1405.251910,1443.119125
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:condition),1472.542028,1510.409243
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition),1409.275401,1447.142616
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:domain:condition),1471.672321,1509.539536
+log(response_time) ~ condition + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition),1595.634598,1633.501813
+log(response_time) ~ condition + session_num + (1|id) + (1|id:condition) + (1|id:domain:condition),1568.817497,1606.684712
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1496.331663,1534.198878
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition),1355.599590,1393.466805
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1355.753228,1393.620443
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1353.383931,1391.251146
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1470.410116,1508.277331
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1423.063303,1460.930518
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1422.250649,1460.117864
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1408.395603,1446.262819
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1471.672321,1509.539536
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1405.409342,1443.276557
+log(response_time) ~ condition + session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1496.433986,1534.301201
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1357.599590,1400.200207
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1357.753228,1400.353845
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1355.383931,1397.984548
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1444.009879,1486.610496
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1407.251910,1449.852527
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1406.407934,1449.008551
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1410.395603,1452.996221
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1473.672321,1516.272938
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1407.409342,1450.009959
+log(response_time) ~ condition + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1498.331663,1540.932280
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1357.374509,1399.975126
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1355.383931,1397.984548
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1354.969670,1397.570288
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1424.051572,1466.652189
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1407.409343,1450.009960
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1359.374509,1406.708528
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1357.383931,1404.717950
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1356.969670,1404.303689
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1408.407934,1455.741953
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1409.409342,1456.743361
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1356.969670,1404.303689
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1358.969670,1411.037091
+log(response_time) ~ condition + domain + session_num + (1|id),1462.781996,1495.915810
+log(response_time) ~ condition + domain + session_num + (1|stimulus),1472.559345,1505.693158
+log(response_time) ~ condition + domain + session_num + (1|id:domain),1428.070412,1461.204226
+log(response_time) ~ condition + domain + session_num + (1|id:condition),1485.588427,1518.722240
+log(response_time) ~ condition + domain + session_num + (1|stimulus:condition),1509.079271,1542.213084
+log(response_time) ~ condition + domain + session_num + (1|id:domain:condition),1462.582070,1495.715883
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus),1366.654467,1404.521682
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain),1428.727299,1466.594514
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:condition),1464.528449,1502.395665
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus:condition),1416.187393,1454.054608
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain:condition),1443.822532,1481.689747
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain),1315.749348,1353.616564
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:condition),1394.753657,1432.620872
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|stimulus:condition),1474.528678,1512.395893
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain:condition),1355.136896,1393.004111
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:condition),1429.318462,1467.185677
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|stimulus:condition),1368.194339,1406.061554
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:domain:condition),1428.675645,1466.542860
+log(response_time) ~ condition + domain + session_num + (1|id:condition) + (1|stimulus:condition),1440.262583,1478.129799
+log(response_time) ~ condition + domain + session_num + (1|id:condition) + (1|id:domain:condition),1462.375071,1500.242286
+log(response_time) ~ condition + domain + session_num + (1|stimulus:condition) + (1|id:domain:condition),1400.273663,1438.140878
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain),1316.421554,1359.022171
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:condition),1368.621994,1411.222611
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition),1368.654467,1411.255084
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain:condition),1334.790091,1377.390708
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:condition),1430.130912,1472.731529
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition),1368.974880,1411.575497
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:domain:condition),1429.357522,1471.958139
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition),1417.867299,1460.467916
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:condition) + (1|id:domain:condition),1445.822532,1488.423149
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1382.437623,1425.038240
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition),1317.324225,1359.924842
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1317.664397,1360.265014
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1315.293770,1357.894387
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1396.745471,1439.346088
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1355.086787,1397.687404
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1356.435814,1399.036431
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1369.087298,1411.687915
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1430.675642,1473.276259
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1366.152460,1408.753077
+log(response_time) ~ condition + domain + session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1400.580288,1443.180905
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1318.093101,1365.427120
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1318.344852,1365.678871
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1315.999369,1363.333388
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1370.621994,1417.956013
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1336.790091,1384.124110
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1336.275547,1383.609566
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1370.061182,1417.395201
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1431.357522,1478.691541
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1366.973189,1414.307207
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1384.437623,1431.771641
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1319.190137,1366.524156
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1317.293770,1364.627788
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1316.991779,1364.325798
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1356.436015,1403.770034
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1368.152460,1415.486479
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1319.975816,1372.043237
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1317.999369,1370.066790
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1317.711679,1369.779100
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1338.275547,1390.342968
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1368.973189,1421.040609
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1318.991779,1371.059200
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1319.711679,1376.512502
+log(response_time) ~ condition * domain + (1|id),1484.701479,1522.568695
+log(response_time) ~ condition * domain + (1|stimulus),1498.482790,1536.350005
+log(response_time) ~ condition * domain + (1|id:domain),1452.366034,1490.233249
+log(response_time) ~ condition * domain + (1|id:condition),1493.032598,1530.899813
+log(response_time) ~ condition * domain + (1|stimulus:condition),1537.417096,1575.284311
+log(response_time) ~ condition * domain + (1|id:domain:condition),1472.130777,1509.997992
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus),1394.309227,1436.909844
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain),1452.812105,1495.412722
+log(response_time) ~ condition * domain + (1|id) + (1|id:condition),1480.471395,1523.072012
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus:condition),1443.121779,1485.722396
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain:condition),1456.604548,1499.205165
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain),1347.190693,1389.791310
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:condition),1402.144032,1444.744649
+log(response_time) ~ condition * domain + (1|stimulus) + (1|stimulus:condition),1500.482790,1543.083407
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain:condition),1365.048613,1407.649230
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:condition),1445.467546,1488.068163
+log(response_time) ~ condition * domain + (1|id:domain) + (1|stimulus:condition),1399.257001,1441.857618
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:domain:condition),1447.380535,1489.981152
+log(response_time) ~ condition * domain + (1|id:condition) + (1|stimulus:condition),1448.174671,1490.775288
+log(response_time) ~ condition * domain + (1|id:condition) + (1|id:domain:condition),1470.337757,1512.938374
+log(response_time) ~ condition * domain + (1|stimulus:condition) + (1|id:domain:condition),1410.737143,1453.337760
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain),1347.617524,1394.951543
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:condition),1387.929977,1435.263996
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|stimulus:condition),1396.309227,1443.643246
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain:condition),1348.566479,1395.900497
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:condition),1446.573612,1493.907631
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|stimulus:condition),1399.644881,1446.978900
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:domain:condition),1447.903468,1495.237487
+log(response_time) ~ condition * domain + (1|id) + (1|id:condition) + (1|stimulus:condition),1435.662834,1482.996853
+log(response_time) ~ condition * domain + (1|id) + (1|id:condition) + (1|id:domain:condition),1458.604552,1505.938571
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1395.942435,1443.276454
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:condition),1336.644755,1383.978774
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1349.190693,1396.524712
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1337.300783,1384.634802
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1404.142074,1451.476093
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1363.284776,1410.618795
+log(response_time) ~ condition * domain + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1366.432362,1413.766381
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1387.175453,1434.509472
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1447.072050,1494.406069
+log(response_time) ~ condition * domain + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1386.812900,1434.146919
+log(response_time) ~ condition * domain + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1409.254304,1456.588323
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1337.752540,1389.819960
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1349.617524,1401.684945
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1337.837141,1389.904562
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1389.929977,1441.997398
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1350.566479,1402.633899
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1350.075374,1402.142794
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1388.435043,1440.502463
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1448.089439,1500.156860
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1387.347253,1439.414674
+log(response_time) ~ condition * domain + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1397.942435,1450.009855
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1338.506594,1390.574014
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1337.130701,1389.198121
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1338.971843,1391.039263
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1364.700719,1416.768140
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1386.792152,1438.859573
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1339.626620,1396.427443
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1338.105420,1394.906243
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1339.510706,1396.311529
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1352.075374,1408.876196
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1387.842008,1444.642830
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1338.832488,1395.633311
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1339.813673,1401.347897
+log(response_time) ~ domain * session_num + (1|id),1468.589932,1496.990343
+log(response_time) ~ domain * session_num + (1|stimulus),1476.085267,1504.485678
+log(response_time) ~ domain * session_num + (1|id:domain),1436.766735,1465.167146
+log(response_time) ~ domain * session_num + (1|id:condition),1485.231383,1513.631794
+log(response_time) ~ domain * session_num + (1|stimulus:condition),1510.365907,1538.766318
+log(response_time) ~ domain * session_num + (1|id:domain:condition),1463.202006,1491.602417
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus),1372.061298,1405.195111
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain),1437.308247,1470.442061
+log(response_time) ~ domain * session_num + (1|id) + (1|id:condition),1468.656284,1501.790097
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus:condition),1417.537568,1450.671381
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain:condition),1446.335613,1479.469426
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain),1324.524290,1357.658103
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:condition),1394.051170,1427.184983
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|stimulus:condition),1477.865137,1510.998950
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain:condition),1355.494521,1388.628334
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:condition),1434.768570,1467.902383
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|stimulus:condition),1370.609755,1403.743568
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:domain:condition),1434.793452,1467.927265
+log(response_time) ~ domain * session_num + (1|id:condition) + (1|stimulus:condition),1439.425354,1472.559167
+log(response_time) ~ domain * session_num + (1|id:condition) + (1|id:domain:condition),1462.416007,1495.549821
+log(response_time) ~ domain * session_num + (1|stimulus:condition) + (1|id:domain:condition),1400.058829,1433.192642
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain),1325.099968,1362.967183
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:condition),1372.934677,1410.801892
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|stimulus:condition),1373.898450,1411.765665
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain:condition),1336.886419,1374.753635
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:condition),1435.763853,1473.631068
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|stimulus:condition),1371.317931,1409.185147
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:domain:condition),1435.418588,1473.285803
+log(response_time) ~ domain * session_num + (1|id) + (1|id:condition) + (1|stimulus:condition),1418.990622,1456.857837
+log(response_time) ~ domain * session_num + (1|id) + (1|id:condition) + (1|id:domain:condition),1448.335613,1486.202828
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1382.934518,1420.801733
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition),1323.232076,1361.099291
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1325.597786,1363.465002
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1321.171949,1359.039164
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1396.038544,1433.905759
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1354.952594,1392.819809
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1356.714696,1394.581911
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1371.016763,1408.883979
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1436.158618,1474.025834
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1368.007607,1405.874822
+log(response_time) ~ domain * session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1400.074037,1437.941252
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1324.154079,1366.754696
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1326.200740,1368.801357
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1321.835265,1364.435882
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1374.852080,1417.452697
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1338.886419,1381.487036
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1338.150654,1380.751271
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1371.989132,1414.589749
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1437.025701,1479.626318
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1368.765037,1411.365654
+log(response_time) ~ domain * session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1384.934517,1427.535134
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1324.712578,1367.313195
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1323.102560,1365.703177
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1322.287303,1364.887920
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1356.253041,1398.853658
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1370.007607,1412.608224
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1325.639354,1372.973373
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1323.822189,1371.156208
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1322.966178,1370.300196
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1340.150654,1387.484673
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1370.765037,1418.099056
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1324.270257,1371.604276
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1324.966178,1377.033598
+log(response_time) ~ condition * domain + session_num + (1|id),1466.733578,1509.334195
+log(response_time) ~ condition * domain + session_num + (1|stimulus),1476.505836,1519.106453
+log(response_time) ~ condition * domain + session_num + (1|id:domain),1431.892696,1474.493313
+log(response_time) ~ condition * domain + session_num + (1|id:condition),1489.561852,1532.162469
+log(response_time) ~ condition * domain + session_num + (1|stimulus:condition),1513.038537,1555.639154
+log(response_time) ~ condition * domain + session_num + (1|id:domain:condition),1466.552633,1509.153250
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus),1370.265422,1417.599440
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain),1432.543135,1479.877154
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:condition),1468.479386,1515.813405
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus:condition),1420.032242,1467.366260
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain:condition),1447.756997,1495.091016
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain),1319.050746,1366.384765
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:condition),1398.469616,1445.803635
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|stimulus:condition),1478.476509,1525.810528
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain:condition),1359.044752,1406.378771
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:condition),1433.144125,1480.478144
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|stimulus:condition),1371.953041,1419.287060
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:domain:condition),1432.529024,1479.863043
+log(response_time) ~ condition * domain + session_num + (1|id:condition) + (1|stimulus:condition),1444.194499,1491.528518
+log(response_time) ~ condition * domain + session_num + (1|id:condition) + (1|id:domain:condition),1466.337334,1513.671353
+log(response_time) ~ condition * domain + session_num + (1|stimulus:condition) + (1|id:domain:condition),1404.250458,1451.584477
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain),1319.700097,1371.767517
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:condition),1372.232525,1424.299946
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition),1372.265422,1424.332842
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain:condition),1338.566599,1390.634019
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:condition),1433.949927,1486.017347
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition),1372.718592,1424.786012
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:domain:condition),1433.205643,1485.273064
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition),1421.716290,1473.783711
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:condition) + (1|id:domain:condition),1449.756997,1501.824418
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1386.348658,1438.416079
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition),1320.632625,1372.700046
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1320.987439,1373.054860
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1318.787877,1370.855297
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1400.463786,1452.531207
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1358.957112,1411.024532
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1360.351007,1412.418428
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1372.864077,1424.931498
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1434.529024,1486.596444
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1369.987064,1422.054485
+log(response_time) ~ condition * domain + session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1404.546465,1456.613886
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1321.378174,1378.178997
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1321.643797,1378.444619
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1319.474705,1376.275528
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1374.232525,1431.033348
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1340.566599,1397.367422
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1340.062324,1396.863147
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1373.820981,1430.621804
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1435.205643,1492.006466
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1370.794771,1427.595594
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1388.348658,1445.149480
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1322.527207,1379.328030
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1320.787877,1377.588699
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1320.519002,1377.319825
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1360.316043,1417.116866
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1371.987064,1428.787887
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1323.287400,1384.821625
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1321.474705,1383.008930
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1321.219353,1382.753578
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1342.062325,1403.596549
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1372.794771,1434.328996
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1322.519002,1384.053227
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1323.219353,1389.486980
+log(response_time) ~ domain * session_num + condition + (1|id),1464.715296,1502.582512
+log(response_time) ~ domain * session_num + condition + (1|stimulus),1474.551533,1512.418748
+log(response_time) ~ domain * session_num + condition + (1|id:domain),1429.950973,1467.818188
+log(response_time) ~ domain * session_num + condition + (1|id:condition),1487.492374,1525.359589
+log(response_time) ~ domain * session_num + condition + (1|stimulus:condition),1511.075494,1548.942709
+log(response_time) ~ domain * session_num + condition + (1|id:domain:condition),1464.528203,1502.395418
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus),1368.498343,1411.098960
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain),1430.603098,1473.203715
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:condition),1466.453056,1509.053673
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus:condition),1418.067916,1460.668533
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain:condition),1445.740601,1488.341218
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain),1317.531785,1360.132402
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:condition),1396.504268,1439.104885
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|stimulus:condition),1476.520786,1519.121403
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain:condition),1357.053347,1399.653964
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:condition),1431.180469,1473.781086
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|stimulus:condition),1369.956708,1412.557325
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:domain:condition),1430.560960,1473.161577
+log(response_time) ~ domain * session_num + condition + (1|id:condition) + (1|stimulus:condition),1442.076722,1484.677339
+log(response_time) ~ domain * session_num + condition + (1|id:condition) + (1|id:domain:condition),1464.306218,1506.906835
+log(response_time) ~ domain * session_num + condition + (1|stimulus:condition) + (1|id:domain:condition),1402.215662,1444.816279
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain),1318.194609,1365.528628
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:condition),1370.457856,1417.791875
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|stimulus:condition),1370.498343,1417.832362
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain:condition),1336.649255,1383.983274
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:condition),1431.990000,1479.324019
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|stimulus:condition),1370.734390,1418.068409
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:domain:condition),1431.238500,1478.572519
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:condition) + (1|stimulus:condition),1419.729706,1467.063725
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:condition) + (1|id:domain:condition),1447.740601,1495.074620
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1384.336070,1431.670089
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:condition),1319.074452,1366.408471
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1319.446467,1366.780486
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1317.093288,1364.427307
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1398.495990,1445.830009
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1356.976361,1404.310380
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1358.354410,1405.688429
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1370.802294,1418.136313
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1432.556881,1479.890899
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1367.964689,1415.298708
+log(response_time) ~ domain * session_num + condition + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1402.504561,1449.838580
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1319.837565,1371.904986
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1320.117803,1372.185224
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1317.790437,1369.857858
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1372.457856,1424.525277
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1338.649255,1390.716676
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1338.137142,1390.204563
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1371.777421,1423.844841
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1433.238500,1485.305921
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1368.783273,1420.850693
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1386.336070,1438.403491
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1320.938027,1373.005448
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1319.093288,1371.160709
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1318.792270,1370.859690
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1358.328491,1410.395912
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1369.964689,1422.032110
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1321.718391,1378.519214
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1319.790437,1376.591260
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1319.504138,1376.304961
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1340.137142,1396.937965
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1370.783273,1427.584095
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1320.792271,1377.593094
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1321.504138,1383.038363
+log(response_time) ~ condition * domain + domain * session_num + (1|id),1468.687797,1516.021816
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus),1478.495268,1525.829286
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain),1433.825905,1481.159924
+log(response_time) ~ condition * domain + domain * session_num + (1|id:condition),1491.480980,1538.814998
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus:condition),1515.033505,1562.367524
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain:condition),1468.513632,1515.847651
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus),1372.194137,1424.261557
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain),1434.473451,1486.540872
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:condition),1470.426469,1522.493890
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus:condition),1421.947396,1474.014816
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain:condition),1449.702866,1501.770287
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain),1320.963202,1373.030622
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:condition),1400.317205,1452.384626
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|stimulus:condition),1480.466081,1532.533502
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain:condition),1360.994719,1413.062139
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:condition),1435.062596,1487.130017
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|stimulus:condition),1373.770013,1425.837434
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:domain:condition),1434.461671,1486.529092
+log(response_time) ~ condition * domain + domain * session_num + (1|id:condition) + (1|stimulus:condition),1446.038043,1498.105464
+log(response_time) ~ condition * domain + domain * session_num + (1|id:condition) + (1|id:domain:condition),1468.287514,1520.354935
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus:condition) + (1|id:domain:condition),1406.204539,1458.271960
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain),1321.607935,1378.408757
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:condition),1374.155870,1430.956692
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|stimulus:condition),1374.194137,1430.994959
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain:condition),1340.490842,1397.291665
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:condition),1435.867040,1492.667863
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|stimulus:condition),1374.534538,1431.335361
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:domain:condition),1435.135642,1491.936465
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:condition) + (1|stimulus:condition),1423.615661,1480.416484
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:condition) + (1|id:domain:condition),1451.702866,1508.503689
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition),1388.276144,1445.076966
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition),1322.523673,1379.324496
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1322.896135,1379.696958
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1320.696415,1377.497238
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1402.310498,1459.111321
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1360.891810,1417.692632
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1362.300972,1419.101795
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1374.637255,1431.438078
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1436.456884,1493.257706
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1371.843844,1428.644667
+log(response_time) ~ condition * domain + domain * session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1406.487073,1463.287895
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition),1323.267034,1384.801258
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition),1323.548144,1385.082368
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition),1321.378950,1382.913175
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition),1376.155869,1437.690094
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition),1342.490842,1404.025067
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition),1341.985823,1403.520047
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1375.597235,1437.131460
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1437.135642,1498.669867
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1372.651267,1434.185491
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1390.276144,1451.810368
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1324.411653,1385.945877
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1322.696415,1384.230639
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1322.422516,1383.956740
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1362.250741,1423.784965
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1373.843844,1435.378069
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition),1325.170274,1391.437901
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition),1323.378950,1389.646577
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition),1323.118879,1389.386506
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1343.985823,1410.253449
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1374.651267,1440.918893
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1324.422516,1390.690142
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition),1325.118879,1396.119908

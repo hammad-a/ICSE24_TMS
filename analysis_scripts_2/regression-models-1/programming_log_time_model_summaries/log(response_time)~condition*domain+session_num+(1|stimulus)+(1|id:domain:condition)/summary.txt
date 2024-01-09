@@ -1,0 +1,42 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: log(response_time) ~ condition * domain + session_num + (1 |      stimulus) + (1 | id:domain:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+  2694.0   2766.1  -1334.0   2668.0     1869 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.5662 -0.5935  0.0074  0.5665  3.9375 
+
+Random effects:
+ Groups              Name        Variance Std.Dev.
+ id:domain:condition (Intercept) 0.0683   0.2613  
+ stimulus            (Intercept) 0.2027   0.4503  
+ Residual                        0.1752   0.4185  
+Number of obs: 1882, groups:  id:domain:condition, 138; stimulus, 127
+
+Fixed effects:
+                    Estimate Std. Error t value
+(Intercept)         3.104659   0.104984  29.573
+conditionY         -0.002681   0.107152  -0.025
+conditionZ          0.004768   0.102622   0.046
+domainD            -0.370694   0.146954  -2.523
+domainE            -0.072257   0.138880  -0.520
+session_num        -0.096062   0.031151  -3.084
+conditionY:domainD  0.052893   0.150670   0.351
+conditionZ:domainD  0.105876   0.144542   0.732
+conditionY:domainE  0.068176   0.148297   0.460
+conditionZ:domainE  0.062377   0.142420   0.438
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanD domanE sssn_n cndY:D cndZ:D cndY:E
+conditionY  -0.442                                                        
+conditionZ  -0.461  0.493                                                 
+domainD     -0.684  0.334  0.346                                          
+domainE     -0.724  0.354  0.366  0.517                                   
+session_num -0.207 -0.128 -0.112  0.001  0.000                            
+cndtnY:dmnD  0.333 -0.699 -0.340 -0.477 -0.252 -0.001                     
+cndtnZ:dmnD  0.344 -0.340 -0.701 -0.493 -0.260 -0.001  0.485              
+cndtnY:dmnE  0.339 -0.711 -0.346 -0.242 -0.500 -0.001  0.505  0.245       
+cndtnZ:dmnE  0.349 -0.345 -0.712 -0.249 -0.514 -0.001  0.245  0.505  0.485

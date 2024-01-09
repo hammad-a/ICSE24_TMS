@@ -1,0 +1,45 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: log(response_time) ~ condition * domain + domain * session_num +      (1 | id) + (1 | stimulus) + (1 | id:condition) + (1 | stimulus:condition) +  
+    (1 | id:domain:condition)
+   Data: pos_ctrl_da
+
+     AIC      BIC   logLik deviance df.resid 
+  1344.0   1410.3   -658.0   1316.0      826 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.2124 -0.6691 -0.0845  0.5168  3.5135 
+
+Random effects:
+ Groups              Name        Variance Std.Dev.
+ stimulus:condition  (Intercept) 0.005036 0.07097 
+ id:domain:condition (Intercept) 0.035965 0.18964 
+ stimulus            (Intercept) 0.062466 0.24993 
+ id:condition        (Intercept) 0.000000 0.00000 
+ id                  (Intercept) 0.041644 0.20407 
+ Residual                        0.218473 0.46741 
+Number of obs: 840, groups:  stimulus:condition, 168; id:domain:condition, 92; stimulus, 56; id:condition, 46; id, 16
+
+Fixed effects:
+                    Estimate Std. Error t value
+(Intercept)          1.88006    0.10156  18.512
+conditionY           0.16371    0.09693   1.689
+conditionZ           0.07472    0.09284   0.805
+domainC              0.99892    0.12179   8.202
+session_num         -0.10974    0.04763  -2.304
+conditionY:domainC  -0.05202    0.13472  -0.386
+conditionZ:domainC  -0.03106    0.12917  -0.240
+domainC:session_num -0.01822    0.06587  -0.277
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanC sssn_n cndY:C cndZ:C
+conditionY  -0.363                                          
+conditionZ  -0.383  0.507                                   
+domainC     -0.623  0.302  0.319                            
+session_num -0.327 -0.199 -0.188  0.272                     
+cndtnY:dmnC  0.261 -0.717 -0.366 -0.422  0.147              
+cndtnZ:dmnC  0.276 -0.367 -0.719 -0.450  0.133  0.511       
+dmnC:sssn_n  0.236  0.149  0.135 -0.381 -0.719 -0.212 -0.182
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

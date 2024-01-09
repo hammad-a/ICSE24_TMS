@@ -1,0 +1,47 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: response_time ~ condition * domain + session_num + (1 | stimulus) +      (1 | id:domain) + (1 | stimulus:condition) + (1 | id:domain:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+ 15237.2  15320.3  -7603.6  15207.2     1867 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.1259 -0.4765 -0.1225  0.3052  8.9548 
+
+Random effects:
+ Groups              Name        Variance  Std.Dev. 
+ stimulus:condition  (Intercept) 1.630e-07 4.038e-04
+ id:domain:condition (Intercept) 3.229e+00 1.797e+00
+ stimulus            (Intercept) 1.356e+02 1.165e+01
+ id:domain           (Intercept) 2.258e+01 4.752e+00
+ Residual                        1.489e+02 1.220e+01
+Number of obs: 1882, groups:  stimulus:condition, 381; id:domain:condition, 138; stimulus, 127; id:domain, 48
+
+Fixed effects:
+                   Estimate Std. Error t value
+(Intercept)        28.07218    2.45986  11.412
+conditionY         -0.70648    1.47468  -0.479
+conditionZ          0.01937    1.40416   0.014
+domainD            -8.64011    3.50302  -2.466
+domainE            -2.06904    3.26388  -0.634
+session_num        -2.01220    0.41478  -4.851
+conditionY:domainD  0.92727    2.10236   0.441
+conditionZ:domainD  1.99032    1.99719   0.997
+conditionY:domainE  1.51398    1.95256   0.775
+conditionZ:domainE  1.93413    1.86087   1.039
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanD domanE sssn_n cndY:D cndZ:D cndY:E
+conditionY  -0.259                                                        
+conditionZ  -0.270  0.487                                                 
+domainD     -0.692  0.190  0.199                                          
+domainE     -0.743  0.204  0.213  0.522                                   
+session_num -0.120 -0.105 -0.108  0.001  0.000                            
+cndtnY:dmnD  0.191 -0.693 -0.333 -0.273 -0.143 -0.003                     
+cndtnZ:dmnD  0.199 -0.334 -0.695 -0.285 -0.150 -0.002  0.479              
+cndtnY:dmnE  0.205 -0.747 -0.359 -0.144 -0.275 -0.002  0.524  0.252       
+cndtnZ:dmnE  0.214 -0.358 -0.746 -0.150 -0.286 -0.002  0.252  0.524  0.481
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

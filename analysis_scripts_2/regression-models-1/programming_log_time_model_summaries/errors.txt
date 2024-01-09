@@ -1,0 +1,2501 @@
+
+---------------------------------------------
+log(response_time) ~ (1|id)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.00232351 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ condition + (1|id)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ domain + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.0251644 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.00528013 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.0256451 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ condition + domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.00321494 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.00245887 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+Warning: unable to evaluate scaled gradientWarning: Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+---------------------------------------------
+log(response_time) ~ condition + domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.00624845 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain)
+Warning: Model failed to converge with max|grad| = 0.0033437 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.0045629 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.00265319 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.00231562 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+Warning: Model failed to converge with max|grad| = 0.002803 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ domain * session_num + condition + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+Warning: Model failed to converge with max|grad| = 0.00322857 (tol = 0.002, component 1)
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')
+
+---------------------------------------------
+log(response_time) ~ condition * domain + domain * session_num + (1|id) + (1|stimulus) + (1|id:domain) + (1|id:condition) + (1|stimulus:condition) + (1|id:domain:condition)
+boundary (singular) fit: see help('isSingular')

@@ -1,0 +1,44 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: log(response_time) ~ condition * domain + (1 | stimulus) + (1 |      id:domain) + (1 | stimulus:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+  2683.1   2755.1  -1328.5   2657.1     1869 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.9126 -0.5917 -0.0154  0.5854  4.2773 
+
+Random effects:
+ Groups             Name        Variance  Std.Dev. 
+ stimulus:condition (Intercept) 3.321e-11 5.763e-06
+ stimulus           (Intercept) 2.037e-01 4.513e-01
+ id:domain          (Intercept) 6.081e-02 2.466e-01
+ Residual                       1.862e-01 4.315e-01
+Number of obs: 1882, groups:  stimulus:condition, 381; stimulus, 127; id:domain, 48
+
+Fixed effects:
+                   Estimate Std. Error t value
+(Intercept)         3.03329    0.10067  30.130
+conditionY         -0.01367    0.04614  -0.296
+conditionZ         -0.02419    0.04388  -0.551
+domainD            -0.36930    0.14414  -2.562
+domainE            -0.06513    0.13567  -0.480
+conditionY:domainD  0.04826    0.06641   0.727
+conditionZ:domainD  0.10124    0.06300   1.607
+conditionY:domainE  0.02702    0.06034   0.448
+conditionZ:domainE  0.06203    0.05750   1.079
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanD domanE cndY:D cndZ:D cndY:E
+conditionY  -0.209                                                 
+conditionZ  -0.219  0.479                                          
+domainD     -0.698  0.146  0.153                                   
+domainE     -0.742  0.155  0.162  0.518                            
+cndtnY:dmnD  0.145 -0.695 -0.333 -0.209 -0.108                     
+cndtnZ:dmnD  0.152 -0.334 -0.697 -0.219 -0.113  0.477              
+cndtnY:dmnE  0.160 -0.765 -0.366 -0.112 -0.204  0.531  0.255       
+cndtnZ:dmnE  0.167 -0.366 -0.763 -0.117 -0.213  0.254  0.532  0.480
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

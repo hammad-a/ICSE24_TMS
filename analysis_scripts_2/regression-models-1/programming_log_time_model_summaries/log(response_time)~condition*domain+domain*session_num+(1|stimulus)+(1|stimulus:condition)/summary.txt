@@ -1,0 +1,46 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: log(response_time) ~ condition * domain + domain * session_num +      (1 | stimulus) + (1 | stimulus:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+  3020.8   3103.9  -1495.4   2990.8     1867 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.7986 -0.6595  0.0150  0.6579  3.5707 
+
+Random effects:
+ Groups             Name        Variance Std.Dev.
+ stimulus:condition (Intercept) 0.004251 0.0652  
+ stimulus           (Intercept) 0.198876 0.4460  
+ Residual                       0.238040 0.4879  
+Number of obs: 1882, groups:  stimulus:condition, 381; stimulus, 127
+
+Fixed effects:
+                     Estimate Std. Error t value
+(Intercept)          3.085981   0.083329  37.034
+conditionY          -0.014728   0.054818  -0.269
+conditionZ           0.017414   0.052691   0.330
+domainD             -0.321438   0.120088  -2.677
+domainE             -0.064969   0.108842  -0.597
+session_num         -0.078282   0.026306  -2.976
+conditionY:domainD   0.084724   0.078922   1.074
+conditionZ:domainD   0.115716   0.075739   1.528
+conditionY:domainE   0.068443   0.071677   0.955
+conditionZ:domainE   0.054689   0.069015   0.792
+domainD:session_num -0.064053   0.037876  -1.691
+domainE:session_num -0.004023   0.034386  -0.117
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanD domanE sssn_n cndY:D cndZ:D cndY:E cndZ:E dmnD:_
+conditionY  -0.256                                                                      
+conditionZ  -0.266  0.506                                                               
+domainD     -0.694  0.178  0.184                                                        
+domainE     -0.766  0.196  0.204  0.531                                                 
+session_num -0.228 -0.190 -0.180  0.158  0.174                                          
+cndtnY:dmnD  0.178 -0.695 -0.351 -0.253 -0.136  0.132                                   
+cndtnZ:dmnD  0.185 -0.352 -0.696 -0.264 -0.142  0.125  0.504                            
+cndtnY:dmnE  0.196 -0.765 -0.387 -0.136 -0.257  0.145  0.531  0.269                     
+cndtnZ:dmnE  0.203 -0.386 -0.763 -0.141 -0.266  0.137  0.268  0.531  0.507              
+dmnD:sssn_n  0.158  0.132  0.125 -0.224 -0.121 -0.695 -0.196 -0.183 -0.101 -0.095       
+dmnE:sssn_n  0.174  0.145  0.138 -0.121 -0.227 -0.765 -0.101 -0.096 -0.193 -0.181  0.531

@@ -1,0 +1,48 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: log(response_time) ~ condition * domain + domain * session_num +      (1 | id) + (1 | id:domain) + (1 | id:condition) + (1 | id:domain:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+  3628.3   3722.5  -1797.1   3594.3     1865 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.7283 -0.6924 -0.0724  0.6316  3.8257 
+
+Random effects:
+ Groups              Name        Variance  Std.Dev. 
+ id:domain:condition (Intercept) 9.048e-09 9.512e-05
+ id:domain           (Intercept) 1.190e-02 1.091e-01
+ id:condition        (Intercept) 6.482e-03 8.051e-02
+ id                  (Intercept) 4.055e-02 2.014e-01
+ Residual                        3.779e-01 6.147e-01
+Number of obs: 1882, groups:  id:domain:condition, 138; id:domain, 48; id:condition, 46; id, 16
+
+Fixed effects:
+                     Estimate Std. Error t value
+(Intercept)          3.033475   0.079382  38.214
+conditionY           0.044232   0.072549   0.610
+conditionZ           0.016849   0.069829   0.241
+domainD             -0.258177   0.081335  -3.174
+domainE             -0.047211   0.076049  -0.621
+session_num         -0.050895   0.036595  -1.391
+conditionY:domainD   0.001555   0.094707   0.016
+conditionZ:domainD   0.086746   0.091178   0.951
+conditionY:domainE   0.024831   0.085988   0.289
+conditionZ:domainE   0.037803   0.083193   0.454
+domainD:session_num -0.085478   0.047763  -1.790
+domainE:session_num -0.014100   0.043410  -0.325
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanD domanE sssn_n cndY:D cndZ:D cndY:E cndZ:E dmnD:_
+conditionY  -0.341                                                                      
+conditionZ  -0.359  0.497                                                               
+domainD     -0.503  0.274  0.290                                                        
+domainE     -0.538  0.293  0.310  0.525                                                 
+session_num -0.328 -0.193 -0.192  0.265  0.283                                          
+cndtnY:dmnD  0.216 -0.629 -0.314 -0.432 -0.225  0.122                                   
+cndtnZ:dmnD  0.227 -0.314 -0.633 -0.455 -0.237  0.120  0.498                            
+cndtnY:dmnE  0.237 -0.693 -0.346 -0.232 -0.426  0.134  0.530  0.265                     
+cndtnZ:dmnE  0.249 -0.344 -0.693 -0.243 -0.446  0.132  0.264  0.531  0.500              
+dmnD:sssn_n  0.208  0.122  0.120 -0.416 -0.217 -0.629 -0.198 -0.194 -0.103 -0.101       
+dmnE:sssn_n  0.229  0.134  0.132 -0.223 -0.409 -0.693 -0.103 -0.101 -0.195 -0.192  0.530

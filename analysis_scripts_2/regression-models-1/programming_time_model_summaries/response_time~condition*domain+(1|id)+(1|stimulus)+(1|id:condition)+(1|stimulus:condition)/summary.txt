@@ -1,0 +1,46 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: response_time ~ condition * domain + (1 | id) + (1 | stimulus) +      (1 | id:condition) + (1 | stimulus:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+ 15253.5  15331.0  -7612.7  15225.5     1868 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.1123 -0.4775 -0.1307  0.3119  9.1275 
+
+Random effects:
+ Groups             Name        Variance  Std.Dev. 
+ stimulus:condition (Intercept) 1.336e-05  0.003655
+ stimulus           (Intercept) 1.342e+02 11.583102
+ id:condition       (Intercept) 8.728e+00  2.954247
+ id                 (Intercept) 1.460e+01  3.821065
+ Residual                       1.537e+02 12.397140
+Number of obs: 1882, groups:  stimulus:condition, 381; stimulus, 127; id:condition, 46; id, 16
+
+Fixed effects:
+                   Estimate Std. Error t value
+(Intercept)          26.618      2.407  11.060
+conditionY           -1.644      1.718  -0.957
+conditionZ           -0.675      1.639  -0.412
+domainD              -8.559      3.001  -2.852
+domainE              -2.023      2.718  -0.744
+conditionY:domainD    1.049      1.887   0.556
+conditionZ:domainD    1.849      1.809   1.022
+conditionY:domainE    1.785      1.717   1.040
+conditionZ:domainE    1.705      1.651   1.032
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanD domanE cndY:D cndZ:D cndY:E
+conditionY  -0.330                                                 
+conditionZ  -0.341  0.483                                          
+domainD     -0.600  0.157  0.162                                   
+domainE     -0.661  0.172  0.178  0.531                            
+cndtnY:dmnD  0.179 -0.532 -0.261 -0.294 -0.158                     
+cndtnZ:dmnD  0.183 -0.259 -0.536 -0.301 -0.162  0.485              
+cndtnY:dmnE  0.196 -0.585 -0.287 -0.157 -0.298  0.532  0.259       
+cndtnZ:dmnE  0.200 -0.284 -0.587 -0.160 -0.304  0.258  0.531  0.488
+optimizer (nloptwrap) convergence code: 0 (OK)
+unable to evaluate scaled gradient
+Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+

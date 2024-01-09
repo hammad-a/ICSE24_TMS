@@ -1,0 +1,45 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: response_time ~ domain * session_num + condition + (1 | id) +      (1 | id:domain) + (1 | id:condition) + (1 | stimulus:condition) +  
+    (1 | id:domain:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+ 15512.1  15589.7  -7742.1  15484.1     1868 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.6225 -0.4746 -0.1372  0.2685  8.7991 
+
+Random effects:
+ Groups              Name        Variance Std.Dev.
+ stimulus:condition  (Intercept) 134.817  11.611  
+ id:domain:condition (Intercept)   0.000   0.000  
+ id:domain           (Intercept)   6.809   2.609  
+ id:condition        (Intercept)   5.887   2.426  
+ id                  (Intercept)  13.730   3.705  
+ Residual                        148.198  12.174  
+Number of obs: 1882, groups:  stimulus:condition, 381; id:domain:condition, 138; id:domain, 48; id:condition, 46; id, 16
+
+Fixed effects:
+                    Estimate Std. Error t value
+(Intercept)          27.0007     2.1065  12.818
+domainD              -7.9062     2.1738  -3.637
+domainE              -0.4439     2.0100  -0.221
+session_num          -1.8901     0.8203  -2.304
+conditionY            0.3207     1.8781   0.171
+conditionZ            1.4069     1.8435   0.763
+domainD:session_num   0.3941     0.9665   0.408
+domainE:session_num  -0.4907     0.8798  -0.558
+
+Correlation of Fixed Effects:
+            (Intr) domanD domanE sssn_n cndtnY cndtnZ dmnD:_
+domainD     -0.501                                          
+domainE     -0.541  0.525                                   
+session_num -0.314  0.239  0.258                            
+conditionY  -0.400  0.001 -0.001 -0.088                     
+conditionZ  -0.408  0.001  0.000 -0.091  0.501              
+dmnD:sssn_n  0.210 -0.419 -0.219 -0.569 -0.001 -0.001       
+dmnE:sssn_n  0.230 -0.223 -0.414 -0.625 -0.001 -0.001  0.530
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

@@ -1,0 +1,43 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: response_time ~ condition * domain + session_num + (1 | id) +      (1 | id:domain) + (1 | stimulus:condition)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+ 15528.8  15606.3  -7750.4  15500.8     1868 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.8818 -0.4854 -0.1452  0.2745  8.9334 
+
+Random effects:
+ Groups             Name        Variance Std.Dev.
+ stimulus:condition (Intercept) 133.599  11.559  
+ id:domain          (Intercept)   6.499   2.549  
+ id                 (Intercept)  16.221   4.028  
+ Residual                       152.487  12.349  
+Number of obs: 1882, groups:  stimulus:condition, 381; id:domain, 48; id, 16
+
+Fixed effects:
+                   Estimate Std. Error t value
+(Intercept)         27.8191     2.4143  11.523
+conditionY          -0.6786     2.9705  -0.228
+conditionZ           0.2587     2.9449   0.088
+domainD             -8.3834     3.1350  -2.674
+domainE             -2.1400     2.8672  -0.746
+session_num         -1.9875     0.3787  -5.249
+conditionY:domainD   0.9814     4.2795   0.229
+conditionZ:domainD   1.6014     4.2414   0.378
+conditionY:domainE   1.8123     3.8737   0.468
+conditionZ:domainE   2.0004     3.8427   0.521
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanD domanE sssn_n cndY:D cndZ:D cndY:E
+conditionY  -0.599                                                        
+conditionZ  -0.605  0.498                                                 
+domainD     -0.627  0.465  0.470                                          
+domainE     -0.686  0.508  0.514  0.528                                   
+session_num -0.108 -0.043 -0.051  0.001  0.001                            
+cndtnY:dmnD  0.419 -0.692 -0.344 -0.671 -0.353 -0.002                     
+cndtnZ:dmnD  0.424 -0.344 -0.692 -0.678 -0.357 -0.001  0.496              
+cndtnY:dmnE  0.463 -0.764 -0.380 -0.357 -0.666 -0.003  0.531  0.264       
+cndtnZ:dmnE  0.468 -0.380 -0.764 -0.360 -0.672 -0.001  0.264  0.531  0.497

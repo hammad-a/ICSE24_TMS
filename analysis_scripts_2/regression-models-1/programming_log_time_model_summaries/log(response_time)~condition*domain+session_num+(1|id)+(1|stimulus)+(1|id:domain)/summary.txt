@@ -1,0 +1,43 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: log(response_time) ~ condition * domain + session_num + (1 |      id) + (1 | stimulus) + (1 | id:domain)
+   Data: prog_da
+
+     AIC      BIC   logLik deviance df.resid 
+  2616.3   2693.9  -1294.1   2588.3     1868 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.8477 -0.5912 -0.0250  0.5927  4.4194 
+
+Random effects:
+ Groups    Name        Variance Std.Dev.
+ stimulus  (Intercept) 0.20460  0.4523  
+ id:domain (Intercept) 0.01879  0.1371  
+ id        (Intercept) 0.03973  0.1993  
+ Residual              0.18088  0.4253  
+Number of obs: 1882, groups:  stimulus, 127; id:domain, 48; id, 16
+
+Fixed effects:
+                    Estimate Std. Error t value
+(Intercept)         3.097249   0.100343  30.867
+conditionY          0.017085   0.045645   0.374
+conditionZ          0.009402   0.043489   0.216
+domainD            -0.369975   0.124562  -2.970
+domainE            -0.064690   0.114654  -0.564
+session_num        -0.090411   0.012674  -7.133
+conditionY:domainD  0.052406   0.065308   0.802
+conditionZ:domainD  0.101004   0.062080   1.627
+conditionY:domainE  0.031914   0.059363   0.538
+conditionZ:domainE  0.061571   0.056663   1.087
+
+Correlation of Fixed Effects:
+            (Intr) cndtnY cndtnZ domanD domanE sssn_n cndY:D cndZ:D cndY:E
+conditionY  -0.197                                                        
+conditionZ  -0.205  0.486                                                 
+domainD     -0.600  0.166  0.173                                          
+domainE     -0.652  0.180  0.188  0.525                                   
+session_num -0.090 -0.099 -0.107  0.001  0.000                            
+cndtnY:dmnD  0.145 -0.690 -0.332 -0.239 -0.126 -0.003                     
+cndtnZ:dmnD  0.151 -0.333 -0.692 -0.249 -0.132 -0.002  0.479              
+cndtnY:dmnE  0.159 -0.760 -0.365 -0.128 -0.239 -0.003  0.531  0.256       
+cndtnZ:dmnE  0.165 -0.365 -0.759 -0.133 -0.248 -0.002  0.255  0.531  0.481
