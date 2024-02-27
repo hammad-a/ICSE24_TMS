@@ -1,0 +1,32 @@
+Participant_ID,Session Type 1,Session Type 2,Session Type 3
+00001,"vertex, version 1","m1, version 2","sma, version 3"
+00047,"m1, version 2","vertex, version 1","sma, version 3"
+00005,,,
+00302,"sma, version 2","vertex, version 1","m1, version 3"
+00071,"m1, version 3","vertex, version 2","sma, version 1"
+00193,"vertex, version 1","m1, version 3","sma, version 2"
+00209,"vertex, version 3","m1, version 1","sma, version 2"
+03029,"m1, version 1","sma, version 2","vertex, version 3"
+00026,"vertex, version 2","sma, version 3","m1, version 1"
+00782,"sma, version 3","vertex, version 1","m1, version 2"
+00481,"sma, version 1","vertex, version 2","m1, version 3"
+04012,"m1, version 2","sma, version 1","vertex, version 3"
+32420,"vertex, version 3","m1, version 1","sma, version 2"
+12600,,,
+13012,"vertex, version 3","sma, version 2","m1, version 1"
+19391,"vertex, version 2","m1, version 3","sma, version 1"
+18602,"sma, version 1","vertex, version 3","m1, version 2"
+37340,"sma, version 3","vertex, version 1",
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+00003,,,
+00092,,,
+00315,,,
+02731,,,
+01104,,,
+14583,,,
+32112,,,

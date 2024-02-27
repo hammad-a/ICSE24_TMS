@@ -1,0 +1,621 @@
+1.3969 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.9643 	WARNING 	User requested fullscreen with size [3440 1440], but screen is actually [1728, 1117]. Using actual size
+8.1668 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.1677 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fddd8b7dee0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fddd8c2d820>, multiSample=False, name='window1', numSamples=2, pos=[432.0, 279.25], screen=0, size=array([3456, 2234]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.1680 	EXP 	window1: mouseVisible = True
+8.1705 	EXP 	window1: mouseVisible = False
+8.1705 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.1706 	EXP 	window1: recordFrameIntervals = False
+8.2621 	EXP 	window1: recordFrameIntervals = True
+8.7170 	WARNING 	t of last frame was 20.08ms (=1/49)
+9.0977 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.0443 	EXP 	Created intro_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='intro_1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.0508 	EXP 	Created intro_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='intro_2', opacity=1.0, ori=0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='Press ANY KEY to continue!', units='height', win=Window(...), wrapWidth=1)
+11.0667 	EXP 	Created intro_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='intro_text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.0698 	EXP 	Created intro_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='intro_text_4', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press ANY KEY to continue to a training slide!', units='height', win=Window(...), wrapWidth=1)
+11.0757 	EXP 	Created t_stim_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='t_stim_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+11.0764 	EXP 	Created training_crosshair = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.35, italic=False, languageStyle='LTR', name='training_crosshair', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.0770 	EXP 	Created feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.0803 	EXP 	Created t_stim_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='t_stim_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+11.0808 	EXP 	Created feedback_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.0812 	EXP 	Created crosshair = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.35, italic=False, languageStyle='LTR', name='crosshair', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.0846 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+11.0851 	EXP 	Created crosshair = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.35, italic=False, languageStyle='LTR', name='crosshair', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.1047 	EXP 	Created thankyou_screen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thankyou_screen', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.1201 	WARNING 	t of last frame was 2022.59ms (=1/0)
+11.1201 	EXP 	intro_1: autoDraw = True
+11.3652 	WARNING 	t of last frame was 24.65ms (=1/40)
+11.8045 	WARNING 	t of last frame was 33.55ms (=1/29)
+11.9618 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+13.1007 	EXP 	intro_2: autoDraw = True
+18.3246 	DATA 	Keypress: space
+18.3320 	EXP 	intro_1: autoDraw = False
+18.3320 	EXP 	intro_2: autoDraw = False
+18.3320 	EXP 	intro_text_3: autoDraw = True
+23.3191 	EXP 	intro_text_4: autoDraw = True
+32.8793 	DATA 	Keypress: space
+32.8828 	EXP 	intro_text_3: autoDraw = False
+32.8828 	EXP 	intro_text_4: autoDraw = False
+32.8828 	EXP 	t_stim_1: image = 'training_1.bmp'
+32.8828 	EXP 	training_crosshair: height = 0.35
+32.8828 	EXP 	training_crosshair: height = 0.35
+32.8828 	EXP 	training_crosshair: height = 0.35
+32.8828 	EXP 	training_crosshair: text = '+'
+32.8828 	EXP 	training_crosshair: autoDraw = True
+34.8244 	EXP 	t_stim_1: autoDraw = True
+34.8847 	EXP 	training_crosshair: autoDraw = False
+46.5882 	DATA 	Keypress: b
+46.5916 	EXP 	t_stim_1: autoDraw = False
+46.5916 	EXP 	training_crosshair: autoDraw = False
+46.5916 	EXP 	feedback: height = 0.1
+46.5916 	EXP 	feedback: height = 0.1
+46.5916 	EXP 	feedback: height = 0.1
+46.5916 	EXP 	feedback: text = "Correct!\n Let's work on another example!"
+46.5916 	EXP 	feedback: autoDraw = True
+48.5959 	EXP 	feedback: autoDraw = False
+48.5959 	EXP 	feedback: autoDraw = False
+48.5959 	EXP 	t_stim_2: image = 'training_2.bmp'
+48.5959 	EXP 	t_stim_2: autoDraw = True
+53.4950 	DATA 	Keypress: a
+53.4978 	EXP 	t_stim_2: autoDraw = False
+53.4978 	EXP 	feedback_3: height = 0.1
+53.4978 	EXP 	feedback_3: height = 0.1
+53.4978 	EXP 	feedback_3: height = 0.1
+53.4978 	EXP 	feedback_3: text = 'Correct!\n \n The experiment will now begin. \n \n Good luck!'
+53.4978 	EXP 	feedback_3: autoDraw = True
+55.4907 	EXP 	feedback_3: autoDraw = False
+55.4907 	EXP 	feedback_3: autoDraw = False
+55.4907 	EXP 	crosshair: height = 0.35
+55.4907 	EXP 	crosshair: height = 0.35
+55.4907 	EXP 	crosshair: height = 0.35
+55.4907 	EXP 	crosshair: text = '+'
+55.4907 	EXP 	crosshair: autoDraw = True
+58.4925 	EXP 	Imported project_version_2.xlsx as conditions, 61 conditions, 2 params
+58.4938 	EXP 	Created sequence: random, trialTypes=61, nReps=1, seed=None
+58.4941 	EXP 	New trial (rep=0, index=0): {'figure1': '84.BMP', 'corrAns': 'a'}
+58.5089 	EXP 	crosshair: autoDraw = False
+58.5089 	EXP 	crosshair: autoDraw = False
+58.5089 	EXP 	image: image = '84.BMP'
+58.5089 	EXP 	image: autoDraw = True
+62.2914 	DATA 	Keypress: a
+62.2943 	EXP 	image: autoDraw = False
+62.2943 	EXP 	crosshair: text = '+'
+62.2943 	EXP 	crosshair: autoDraw = True
+65.2845 	EXP 	New trial (rep=0, index=1): {'figure1': '325.bmp', 'corrAns': 'a'}
+65.3064 	EXP 	crosshair: autoDraw = False
+65.3064 	EXP 	crosshair: autoDraw = False
+65.3064 	EXP 	image: image = '325.bmp'
+65.3064 	EXP 	image: autoDraw = True
+162.9637 	DATA 	Keypress: a
+162.9673 	EXP 	image: autoDraw = False
+162.9673 	EXP 	crosshair: text = '+'
+162.9673 	EXP 	crosshair: autoDraw = True
+165.9567 	EXP 	New trial (rep=0, index=2): {'figure1': '311.bmp', 'corrAns': 'b'}
+165.9733 	EXP 	crosshair: autoDraw = False
+165.9733 	EXP 	crosshair: autoDraw = False
+165.9733 	EXP 	image: image = '311.bmp'
+165.9733 	EXP 	image: autoDraw = True
+191.5869 	EXP 	image: autoDraw = False
+191.5869 	EXP 	crosshair: text = '+'
+191.5869 	EXP 	crosshair: autoDraw = True
+191.5892 	DATA 	Keypress: b
+194.5728 	EXP 	New trial (rep=0, index=3): {'figure1': '51.BMP', 'corrAns': 'a'}
+194.5957 	EXP 	crosshair: autoDraw = False
+194.5957 	EXP 	crosshair: autoDraw = False
+194.5957 	EXP 	image: image = '51.BMP'
+194.5957 	EXP 	image: autoDraw = True
+210.3763 	EXP 	image: autoDraw = False
+210.3763 	EXP 	crosshair: text = '+'
+210.3763 	EXP 	crosshair: autoDraw = True
+210.3777 	DATA 	Keypress: a
+213.3694 	EXP 	New trial (rep=0, index=4): {'figure1': '302.bmp', 'corrAns': 'a'}
+213.3879 	EXP 	crosshair: autoDraw = False
+213.3879 	EXP 	crosshair: autoDraw = False
+213.3879 	EXP 	image: image = '302.bmp'
+213.3879 	EXP 	image: autoDraw = True
+249.1149 	DATA 	Keypress: b
+249.1199 	EXP 	image: autoDraw = False
+249.1199 	EXP 	crosshair: text = '+'
+249.1199 	EXP 	crosshair: autoDraw = True
+252.1111 	EXP 	New trial (rep=0, index=5): {'figure1': '91.jpg', 'corrAns': 'a'}
+252.1401 	EXP 	crosshair: autoDraw = False
+252.1401 	EXP 	crosshair: autoDraw = False
+252.1401 	EXP 	image: image = '91.jpg'
+252.1401 	EXP 	image: autoDraw = True
+261.3070 	DATA 	Keypress: a
+261.3109 	EXP 	image: autoDraw = False
+261.3109 	EXP 	crosshair: text = '+'
+261.3109 	EXP 	crosshair: autoDraw = True
+264.2989 	EXP 	New trial (rep=0, index=6): {'figure1': '77.BMP', 'corrAns': 'b'}
+264.3160 	EXP 	crosshair: autoDraw = False
+264.3160 	EXP 	crosshair: autoDraw = False
+264.3160 	EXP 	image: image = '77.BMP'
+264.3160 	EXP 	image: autoDraw = True
+270.9930 	EXP 	image: autoDraw = False
+270.9930 	EXP 	crosshair: text = '+'
+270.9930 	EXP 	crosshair: autoDraw = True
+270.9945 	DATA 	Keypress: b
+273.9824 	EXP 	New trial (rep=0, index=7): {'figure1': '68.BMP', 'corrAns': 'a'}
+273.9962 	EXP 	crosshair: autoDraw = False
+273.9962 	EXP 	crosshair: autoDraw = False
+273.9962 	EXP 	image: image = '68.BMP'
+273.9962 	EXP 	image: autoDraw = True
+277.9075 	DATA 	Keypress: a
+277.9115 	EXP 	image: autoDraw = False
+277.9115 	EXP 	crosshair: text = '+'
+277.9115 	EXP 	crosshair: autoDraw = True
+280.9101 	EXP 	New trial (rep=0, index=8): {'figure1': '116.jpg', 'corrAns': 'b'}
+280.9357 	EXP 	crosshair: autoDraw = False
+280.9357 	EXP 	image: image = '116.jpg'
+280.9357 	EXP 	image: autoDraw = True
+323.6931 	DATA 	Keypress: b
+323.6999 	EXP 	image: autoDraw = False
+323.6999 	EXP 	crosshair: text = '+'
+323.6999 	EXP 	crosshair: autoDraw = True
+326.6922 	EXP 	New trial (rep=0, index=9): {'figure1': '41.BMP', 'corrAns': 'b'}
+326.7094 	EXP 	crosshair: autoDraw = False
+326.7094 	EXP 	image: image = '41.BMP'
+326.7094 	EXP 	image: autoDraw = True
+353.6739 	DATA 	Keypress: b
+353.6777 	EXP 	image: autoDraw = False
+353.6777 	EXP 	crosshair: text = '+'
+353.6777 	EXP 	crosshair: autoDraw = True
+356.6724 	EXP 	New trial (rep=0, index=10): {'figure1': '106.jpg', 'corrAns': 'a'}
+356.6931 	EXP 	crosshair: autoDraw = False
+356.6931 	EXP 	image: image = '106.jpg'
+356.6931 	EXP 	image: autoDraw = True
+386.0955 	DATA 	Keypress: b
+386.1082 	EXP 	image: autoDraw = False
+386.1082 	EXP 	crosshair: text = '+'
+386.1082 	EXP 	crosshair: autoDraw = True
+389.0941 	EXP 	New trial (rep=0, index=11): {'figure1': '88.BMP', 'corrAns': 'b'}
+389.1118 	EXP 	crosshair: autoDraw = False
+389.1118 	EXP 	image: image = '88.BMP'
+389.1118 	EXP 	image: autoDraw = True
+398.6440 	DATA 	Keypress: b
+398.6478 	EXP 	image: autoDraw = False
+398.6478 	EXP 	crosshair: text = '+'
+398.6478 	EXP 	crosshair: autoDraw = True
+401.6364 	EXP 	New trial (rep=0, index=12): {'figure1': '17.BMP', 'corrAns': 'b'}
+401.6515 	EXP 	crosshair: autoDraw = False
+401.6515 	EXP 	crosshair: autoDraw = False
+401.6515 	EXP 	image: image = '17.BMP'
+401.6515 	EXP 	image: autoDraw = True
+410.8946 	DATA 	Keypress: b
+410.8986 	EXP 	image: autoDraw = False
+410.8986 	EXP 	crosshair: text = '+'
+410.8986 	EXP 	crosshair: autoDraw = True
+413.8849 	EXP 	New trial (rep=0, index=13): {'figure1': '48.BMP', 'corrAns': 'a'}
+413.8996 	EXP 	crosshair: autoDraw = False
+413.8996 	EXP 	crosshair: autoDraw = False
+413.8996 	EXP 	image: image = '48.BMP'
+413.8996 	EXP 	image: autoDraw = True
+426.8595 	DATA 	Keypress: a
+426.8637 	EXP 	image: autoDraw = False
+426.8637 	EXP 	crosshair: text = '+'
+426.8637 	EXP 	crosshair: autoDraw = True
+429.8497 	EXP 	New trial (rep=0, index=14): {'figure1': '39.BMP', 'corrAns': 'a'}
+429.8674 	EXP 	crosshair: autoDraw = False
+429.8674 	EXP 	crosshair: autoDraw = False
+429.8674 	EXP 	image: image = '39.BMP'
+429.8674 	EXP 	image: autoDraw = True
+442.5692 	DATA 	Keypress: a
+442.5738 	EXP 	image: autoDraw = False
+442.5738 	EXP 	crosshair: text = '+'
+442.5738 	EXP 	crosshair: autoDraw = True
+445.5637 	EXP 	New trial (rep=0, index=15): {'figure1': '14.BMP', 'corrAns': 'a'}
+445.5769 	EXP 	crosshair: autoDraw = False
+445.5769 	EXP 	crosshair: autoDraw = False
+445.5769 	EXP 	image: image = '14.BMP'
+445.5769 	EXP 	image: autoDraw = True
+451.4475 	DATA 	Keypress: a
+451.4513 	EXP 	image: autoDraw = False
+451.4513 	EXP 	crosshair: text = '+'
+451.4513 	EXP 	crosshair: autoDraw = True
+454.4399 	EXP 	New trial (rep=0, index=16): {'figure1': '150.bmp', 'corrAns': 'b'}
+454.4592 	EXP 	crosshair: autoDraw = False
+454.4592 	EXP 	crosshair: autoDraw = False
+454.4592 	EXP 	image: image = '150.bmp'
+454.4592 	EXP 	image: autoDraw = True
+477.5102 	DATA 	Keypress: b
+477.5151 	EXP 	image: autoDraw = False
+477.5151 	EXP 	crosshair: text = '+'
+477.5151 	EXP 	crosshair: autoDraw = True
+480.5010 	EXP 	New trial (rep=0, index=17): {'figure1': '129.bmp', 'corrAns': 'a'}
+480.5184 	EXP 	crosshair: autoDraw = False
+480.5184 	EXP 	crosshair: autoDraw = False
+480.5184 	EXP 	image: image = '129.bmp'
+480.5184 	EXP 	image: autoDraw = True
+497.0995 	DATA 	Keypress: a
+497.1041 	EXP 	image: autoDraw = False
+497.1041 	EXP 	crosshair: text = '+'
+497.1041 	EXP 	crosshair: autoDraw = True
+500.1029 	EXP 	New trial (rep=0, index=18): {'figure1': '320.bmp', 'corrAns': 'a'}
+500.1198 	EXP 	crosshair: autoDraw = False
+500.1198 	EXP 	image: image = '320.bmp'
+500.1198 	EXP 	image: autoDraw = True
+551.1876 	DATA 	Keypress: a
+551.1913 	EXP 	image: autoDraw = False
+551.1913 	EXP 	crosshair: text = '+'
+551.1913 	EXP 	crosshair: autoDraw = True
+554.1761 	EXP 	New trial (rep=0, index=19): {'figure1': '43.BMP', 'corrAns': 'b'}
+554.1913 	EXP 	crosshair: autoDraw = False
+554.1913 	EXP 	crosshair: autoDraw = False
+554.1913 	EXP 	image: image = '43.BMP'
+554.1913 	EXP 	image: autoDraw = True
+572.2509 	DATA 	Keypress: b
+572.2568 	EXP 	image: autoDraw = False
+572.2568 	EXP 	crosshair: text = '+'
+572.2568 	EXP 	crosshair: autoDraw = True
+575.2451 	EXP 	New trial (rep=0, index=20): {'figure1': '71.BMP', 'corrAns': 'b'}
+575.2593 	EXP 	crosshair: autoDraw = False
+575.2593 	EXP 	crosshair: autoDraw = False
+575.2593 	EXP 	image: image = '71.BMP'
+575.2593 	EXP 	image: autoDraw = True
+583.6401 	DATA 	Keypress: h
+584.2854 	DATA 	Keypress: b
+584.2910 	EXP 	image: autoDraw = False
+584.2910 	EXP 	crosshair: text = '+'
+584.2910 	EXP 	crosshair: autoDraw = True
+587.2781 	EXP 	New trial (rep=0, index=21): {'figure1': '211.bmp', 'corrAns': 'a'}
+587.2941 	EXP 	crosshair: autoDraw = False
+587.2941 	EXP 	crosshair: autoDraw = False
+587.2941 	EXP 	image: image = '211.bmp'
+587.2941 	EXP 	image: autoDraw = True
+617.1591 	DATA 	Keypress: a
+617.1628 	EXP 	image: autoDraw = False
+617.1628 	EXP 	crosshair: text = '+'
+617.1628 	EXP 	crosshair: autoDraw = True
+620.1613 	EXP 	New trial (rep=0, index=22): {'figure1': '37.BMP', 'corrAns': 'a'}
+620.1862 	EXP 	crosshair: autoDraw = False
+620.1862 	EXP 	image: image = '37.BMP'
+620.1862 	EXP 	image: autoDraw = True
+633.0745 	DATA 	Keypress: a
+633.0780 	EXP 	image: autoDraw = False
+633.0780 	EXP 	crosshair: text = '+'
+633.0780 	EXP 	crosshair: autoDraw = True
+636.0667 	EXP 	New trial (rep=0, index=23): {'figure1': '308.bmp', 'corrAns': 'b'}
+636.0893 	EXP 	crosshair: autoDraw = False
+636.0893 	EXP 	crosshair: autoDraw = False
+636.0893 	EXP 	image: image = '308.bmp'
+636.0893 	EXP 	image: autoDraw = True
+682.8631 	DATA 	Keypress: b
+682.8673 	EXP 	image: autoDraw = False
+682.8673 	EXP 	crosshair: text = '+'
+682.8673 	EXP 	crosshair: autoDraw = True
+685.8514 	EXP 	New trial (rep=0, index=24): {'figure1': '57.BMP', 'corrAns': 'b'}
+685.8684 	EXP 	crosshair: autoDraw = False
+685.8684 	EXP 	crosshair: autoDraw = False
+685.8684 	EXP 	image: image = '57.BMP'
+685.8684 	EXP 	image: autoDraw = True
+698.8038 	DATA 	Keypress: b
+698.8077 	EXP 	image: autoDraw = False
+698.8077 	EXP 	crosshair: text = '+'
+698.8077 	EXP 	crosshair: autoDraw = True
+701.7954 	EXP 	New trial (rep=0, index=25): {'figure1': '146.bmp', 'corrAns': 'a'}
+701.8153 	EXP 	crosshair: autoDraw = False
+701.8153 	EXP 	crosshair: autoDraw = False
+701.8153 	EXP 	image: image = '146.bmp'
+701.8153 	EXP 	image: autoDraw = True
+725.0990 	EXP 	image: autoDraw = False
+725.0990 	EXP 	crosshair: text = '+'
+725.0990 	EXP 	crosshair: autoDraw = True
+725.1005 	DATA 	Keypress: a
+728.0848 	EXP 	New trial (rep=0, index=26): {'figure1': '119.jpg', 'corrAns': 'a'}
+728.1071 	EXP 	crosshair: autoDraw = False
+728.1071 	EXP 	crosshair: autoDraw = False
+728.1071 	EXP 	image: image = '119.jpg'
+728.1071 	EXP 	image: autoDraw = True
+745.9742 	DATA 	Keypress: a
+745.9776 	EXP 	image: autoDraw = False
+745.9776 	EXP 	crosshair: text = '+'
+745.9776 	EXP 	crosshair: autoDraw = True
+748.9624 	EXP 	New trial (rep=0, index=27): {'figure1': '204.bmp', 'corrAns': 'b'}
+748.9803 	EXP 	crosshair: autoDraw = False
+748.9803 	EXP 	crosshair: autoDraw = False
+748.9803 	EXP 	image: image = '204.bmp'
+748.9803 	EXP 	image: autoDraw = True
+754.0150 	DATA 	Keypress: b
+754.0182 	EXP 	image: autoDraw = False
+754.0182 	EXP 	crosshair: text = '+'
+754.0182 	EXP 	crosshair: autoDraw = True
+757.0070 	EXP 	New trial (rep=0, index=28): {'figure1': '143.bmp', 'corrAns': 'a'}
+757.0222 	EXP 	crosshair: autoDraw = False
+757.0222 	EXP 	crosshair: autoDraw = False
+757.0222 	EXP 	image: image = '143.bmp'
+757.0222 	EXP 	image: autoDraw = True
+775.5411 	DATA 	Keypress: a
+775.5451 	EXP 	image: autoDraw = False
+775.5451 	EXP 	crosshair: text = '+'
+775.5451 	EXP 	crosshair: autoDraw = True
+778.5281 	EXP 	New trial (rep=0, index=29): {'figure1': '317.bmp', 'corrAns': 'a'}
+778.5419 	EXP 	crosshair: autoDraw = False
+778.5419 	EXP 	crosshair: autoDraw = False
+778.5419 	EXP 	image: image = '317.bmp'
+778.5419 	EXP 	image: autoDraw = True
+855.1815 	DATA 	Keypress: a
+855.1862 	EXP 	image: autoDraw = False
+855.1862 	EXP 	crosshair: text = '+'
+855.1862 	EXP 	crosshair: autoDraw = True
+858.1706 	EXP 	New trial (rep=0, index=30): {'figure1': '40.jpg', 'corrAns': 'b'}
+858.1897 	EXP 	crosshair: autoDraw = False
+858.1897 	EXP 	crosshair: autoDraw = False
+858.1897 	EXP 	image: image = '40.jpg'
+858.1897 	EXP 	image: autoDraw = True
+868.6237 	DATA 	Keypress: b
+868.6290 	EXP 	image: autoDraw = False
+868.6290 	EXP 	crosshair: text = '+'
+868.6290 	EXP 	crosshair: autoDraw = True
+871.6135 	EXP 	New trial (rep=0, index=31): {'figure1': '108.jpg', 'corrAns': 'a'}
+871.6488 	EXP 	crosshair: autoDraw = False
+871.6488 	EXP 	crosshair: autoDraw = False
+871.6488 	EXP 	image: image = '108.jpg'
+871.6488 	EXP 	image: autoDraw = True
+886.8271 	DATA 	Keypress: a
+886.8331 	EXP 	image: autoDraw = False
+886.8331 	EXP 	crosshair: text = '+'
+886.8331 	EXP 	crosshair: autoDraw = True
+889.8319 	EXP 	New trial (rep=0, index=32): {'figure1': '141.bmp', 'corrAns': 'b'}
+889.8524 	EXP 	crosshair: autoDraw = False
+889.8524 	EXP 	image: image = '141.bmp'
+889.8524 	EXP 	image: autoDraw = True
+908.5707 	DATA 	Keypress: b
+908.5745 	EXP 	image: autoDraw = False
+908.5745 	EXP 	crosshair: text = '+'
+908.5745 	EXP 	crosshair: autoDraw = True
+911.5593 	EXP 	New trial (rep=0, index=33): {'figure1': '115.jpg', 'corrAns': 'b'}
+911.5828 	EXP 	crosshair: autoDraw = False
+911.5828 	EXP 	crosshair: autoDraw = False
+911.5828 	EXP 	image: image = '115.jpg'
+911.5828 	EXP 	image: autoDraw = True
+962.5403 	DATA 	Keypress: b
+962.5449 	EXP 	image: autoDraw = False
+962.5449 	EXP 	crosshair: text = '+'
+962.5449 	EXP 	crosshair: autoDraw = True
+965.5412 	EXP 	New trial (rep=0, index=34): {'figure1': '329.bmp', 'corrAns': 'b'}
+965.5639 	EXP 	crosshair: autoDraw = False
+965.5639 	EXP 	image: image = '329.bmp'
+965.5639 	EXP 	image: autoDraw = True
+989.0365 	DATA 	Keypress: b
+989.0423 	EXP 	image: autoDraw = False
+989.0423 	EXP 	crosshair: text = '+'
+989.0423 	EXP 	crosshair: autoDraw = True
+992.0322 	EXP 	New trial (rep=0, index=35): {'figure1': '202.bmp', 'corrAns': 'a'}
+992.0490 	EXP 	crosshair: autoDraw = False
+992.0490 	EXP 	crosshair: autoDraw = False
+992.0490 	EXP 	image: image = '202.bmp'
+992.0490 	EXP 	image: autoDraw = True
+1006.7544 	DATA 	Keypress: a
+1006.7632 	EXP 	image: autoDraw = False
+1006.7632 	EXP 	crosshair: text = '+'
+1006.7632 	EXP 	crosshair: autoDraw = True
+1009.7477 	EXP 	New trial (rep=0, index=36): {'figure1': '20.BMP', 'corrAns': 'b'}
+1009.7677 	EXP 	crosshair: autoDraw = False
+1009.7677 	EXP 	crosshair: autoDraw = False
+1009.7677 	EXP 	image: image = '20.BMP'
+1009.7677 	EXP 	image: autoDraw = True
+1023.2843 	DATA 	Keypress: b
+1023.2882 	EXP 	image: autoDraw = False
+1023.2882 	EXP 	crosshair: text = '+'
+1023.2882 	EXP 	crosshair: autoDraw = True
+1026.2829 	EXP 	New trial (rep=0, index=37): {'figure1': '332.bmp', 'corrAns': 'a'}
+1026.3048 	EXP 	crosshair: autoDraw = False
+1026.3048 	EXP 	crosshair: autoDraw = False
+1026.3048 	EXP 	image: image = '332.bmp'
+1026.3048 	EXP 	image: autoDraw = True
+1064.7705 	DATA 	Keypress: b
+1064.7748 	EXP 	image: autoDraw = False
+1064.7748 	EXP 	crosshair: text = '+'
+1064.7748 	EXP 	crosshair: autoDraw = True
+1067.7581 	EXP 	New trial (rep=0, index=38): {'figure1': '2.BMP', 'corrAns': 'b'}
+1067.7746 	EXP 	crosshair: autoDraw = False
+1067.7746 	EXP 	crosshair: autoDraw = False
+1067.7746 	EXP 	image: image = '2.BMP'
+1067.7746 	EXP 	image: autoDraw = True
+1082.9950 	DATA 	Keypress: b
+1082.9991 	EXP 	image: autoDraw = False
+1082.9991 	EXP 	crosshair: text = '+'
+1082.9991 	EXP 	crosshair: autoDraw = True
+1085.9838 	EXP 	New trial (rep=0, index=39): {'figure1': '135.bmp', 'corrAns': 'b'}
+1086.0023 	EXP 	crosshair: autoDraw = False
+1086.0023 	EXP 	crosshair: autoDraw = False
+1086.0023 	EXP 	image: image = '135.bmp'
+1086.0023 	EXP 	image: autoDraw = True
+1111.5624 	DATA 	Keypress: b
+1111.5664 	EXP 	image: autoDraw = False
+1111.5664 	EXP 	crosshair: text = '+'
+1111.5664 	EXP 	crosshair: autoDraw = True
+1114.5503 	EXP 	New trial (rep=0, index=40): {'figure1': '109.jpg', 'corrAns': 'a'}
+1114.5768 	EXP 	crosshair: autoDraw = False
+1114.5768 	EXP 	crosshair: autoDraw = False
+1114.5768 	EXP 	image: image = '109.jpg'
+1114.5768 	EXP 	image: autoDraw = True
+1133.6654 	DATA 	Keypress: a
+1133.6714 	EXP 	image: autoDraw = False
+1133.6714 	EXP 	crosshair: text = '+'
+1133.6714 	EXP 	crosshair: autoDraw = True
+1136.6602 	EXP 	New trial (rep=0, index=41): {'figure1': '117.jpg', 'corrAns': 'a'}
+1136.6777 	EXP 	crosshair: autoDraw = False
+1136.6777 	EXP 	crosshair: autoDraw = False
+1136.6777 	EXP 	image: image = '117.jpg'
+1136.6777 	EXP 	image: autoDraw = True
+1194.5129 	DATA 	Keypress: a
+1194.5169 	EXP 	image: autoDraw = False
+1194.5169 	EXP 	crosshair: text = '+'
+1194.5169 	EXP 	crosshair: autoDraw = True
+1197.5075 	EXP 	New trial (rep=0, index=42): {'figure1': '29.BMP', 'corrAns': 'a'}
+1197.5233 	EXP 	crosshair: autoDraw = False
+1197.5233 	EXP 	crosshair: autoDraw = False
+1197.5233 	EXP 	image: image = '29.BMP'
+1197.5233 	EXP 	image: autoDraw = True
+1216.4359 	DATA 	Keypress: a
+1216.4410 	EXP 	image: autoDraw = False
+1216.4410 	EXP 	crosshair: text = '+'
+1216.4410 	EXP 	crosshair: autoDraw = True
+1219.4266 	EXP 	New trial (rep=0, index=43): {'figure1': '203.bmp', 'corrAns': 'a'}
+1219.4458 	EXP 	crosshair: autoDraw = False
+1219.4458 	EXP 	crosshair: autoDraw = False
+1219.4458 	EXP 	image: image = '203.bmp'
+1219.4458 	EXP 	image: autoDraw = True
+1240.5598 	EXP 	image: autoDraw = False
+1240.5598 	EXP 	crosshair: text = '+'
+1240.5598 	EXP 	crosshair: autoDraw = True
+1240.5614 	DATA 	Keypress: a
+1243.5484 	EXP 	New trial (rep=0, index=44): {'figure1': '110.jpg', 'corrAns': 'a'}
+1243.5738 	EXP 	crosshair: autoDraw = False
+1243.5738 	EXP 	image: image = '110.jpg'
+1243.5738 	EXP 	image: autoDraw = True
+1259.9259 	DATA 	Keypress: a
+1259.9300 	EXP 	image: autoDraw = False
+1259.9300 	EXP 	crosshair: text = '+'
+1259.9300 	EXP 	crosshair: autoDraw = True
+1262.9158 	EXP 	New trial (rep=0, index=45): {'figure1': '64.BMP', 'corrAns': 'a'}
+1262.9323 	EXP 	crosshair: autoDraw = False
+1262.9323 	EXP 	crosshair: autoDraw = False
+1262.9323 	EXP 	image: image = '64.BMP'
+1262.9323 	EXP 	image: autoDraw = True
+1278.6306 	DATA 	Keypress: a
+1278.6424 	EXP 	image: autoDraw = False
+1278.6424 	EXP 	crosshair: text = '+'
+1278.6424 	EXP 	crosshair: autoDraw = True
+1281.6306 	EXP 	New trial (rep=0, index=46): {'figure1': '132.bmp', 'corrAns': 'b'}
+1281.6481 	EXP 	crosshair: autoDraw = False
+1281.6481 	EXP 	image: image = '132.bmp'
+1281.6481 	EXP 	image: autoDraw = True
+1305.5864 	DATA 	Keypress: b
+1305.5913 	EXP 	image: autoDraw = False
+1305.5913 	EXP 	crosshair: text = '+'
+1305.5913 	EXP 	crosshair: autoDraw = True
+1308.5744 	EXP 	New trial (rep=0, index=47): {'figure1': '111.jpg', 'corrAns': 'a'}
+1308.5987 	EXP 	crosshair: autoDraw = False
+1308.5987 	EXP 	crosshair: autoDraw = False
+1308.5987 	EXP 	image: image = '111.jpg'
+1308.5987 	EXP 	image: autoDraw = True
+1324.9268 	DATA 	Keypress: a
+1324.9338 	EXP 	image: autoDraw = False
+1324.9338 	EXP 	crosshair: text = '+'
+1324.9338 	EXP 	crosshair: autoDraw = True
+1327.9193 	EXP 	New trial (rep=0, index=48): {'figure1': '112.jpg', 'corrAns': 'b'}
+1327.9412 	EXP 	crosshair: autoDraw = False
+1327.9412 	EXP 	crosshair: autoDraw = False
+1327.9412 	EXP 	image: image = '112.jpg'
+1327.9412 	EXP 	image: autoDraw = True
+1337.4537 	DATA 	Keypress: b
+1337.4584 	EXP 	image: autoDraw = False
+1337.4584 	EXP 	crosshair: text = '+'
+1337.4584 	EXP 	crosshair: autoDraw = True
+1340.4487 	EXP 	New trial (rep=0, index=49): {'figure1': '53.BMP', 'corrAns': 'b'}
+1340.4658 	EXP 	crosshair: autoDraw = False
+1340.4658 	EXP 	crosshair: autoDraw = False
+1340.4658 	EXP 	image: image = '53.BMP'
+1340.4658 	EXP 	image: autoDraw = True
+1358.5098 	DATA 	Keypress: b
+1358.5141 	EXP 	image: autoDraw = False
+1358.5141 	EXP 	crosshair: text = '+'
+1358.5141 	EXP 	crosshair: autoDraw = True
+1361.4995 	EXP 	New trial (rep=0, index=50): {'figure1': '65.BMP', 'corrAns': 'b'}
+1361.5136 	EXP 	crosshair: autoDraw = False
+1361.5136 	EXP 	crosshair: autoDraw = False
+1361.5136 	EXP 	image: image = '65.BMP'
+1361.5136 	EXP 	image: autoDraw = True
+1366.9250 	DATA 	Keypress: b
+1366.9292 	EXP 	image: autoDraw = False
+1366.9292 	EXP 	crosshair: text = '+'
+1366.9292 	EXP 	crosshair: autoDraw = True
+1369.9336 	EXP 	New trial (rep=0, index=51): {'figure1': '35.BMP', 'corrAns': 'b'}
+1369.9481 	EXP 	crosshair: autoDraw = False
+1369.9481 	EXP 	image: image = '35.BMP'
+1369.9481 	EXP 	image: autoDraw = True
+1386.8591 	DATA 	Keypress: b
+1386.8680 	EXP 	image: autoDraw = False
+1386.8680 	EXP 	crosshair: text = '+'
+1386.8680 	EXP 	crosshair: autoDraw = True
+1389.8581 	EXP 	New trial (rep=0, index=52): {'figure1': '5.BMP', 'corrAns': 'a'}
+1389.8746 	EXP 	crosshair: autoDraw = False
+1389.8746 	EXP 	image: image = '5.BMP'
+1389.8746 	EXP 	image: autoDraw = True
+1396.8650 	DATA 	Keypress: a
+1396.8684 	EXP 	image: autoDraw = False
+1396.8684 	EXP 	crosshair: text = '+'
+1396.8684 	EXP 	crosshair: autoDraw = True
+1399.8589 	EXP 	New trial (rep=0, index=53): {'figure1': '149.bmp', 'corrAns': 'a'}
+1399.8782 	EXP 	crosshair: autoDraw = False
+1399.8782 	EXP 	crosshair: autoDraw = False
+1399.8782 	EXP 	image: image = '149.bmp'
+1399.8782 	EXP 	image: autoDraw = True
+1425.4652 	DATA 	Keypress: a
+1425.4703 	EXP 	image: autoDraw = False
+1425.4703 	EXP 	crosshair: text = '+'
+1425.4703 	EXP 	crosshair: autoDraw = True
+1428.4629 	EXP 	New trial (rep=0, index=54): {'figure1': '323.bmp', 'corrAns': 'b'}
+1428.4795 	EXP 	crosshair: autoDraw = False
+1428.4795 	EXP 	crosshair: autoDraw = False
+1428.4795 	EXP 	image: image = '323.bmp'
+1428.4795 	EXP 	image: autoDraw = True
+1455.1213 	DATA 	Keypress: b
+1455.1255 	EXP 	image: autoDraw = False
+1455.1255 	EXP 	crosshair: text = '+'
+1455.1255 	EXP 	crosshair: autoDraw = True
+1458.1124 	EXP 	New trial (rep=0, index=55): {'figure1': '305.bmp', 'corrAns': 'b'}
+1458.1275 	EXP 	crosshair: autoDraw = False
+1458.1275 	EXP 	crosshair: autoDraw = False
+1458.1275 	EXP 	image: image = '305.bmp'
+1458.1275 	EXP 	image: autoDraw = True
+1475.9397 	EXP 	image: autoDraw = False
+1475.9397 	EXP 	crosshair: text = '+'
+1475.9397 	EXP 	crosshair: autoDraw = True
+1475.9414 	DATA 	Keypress: b
+1478.9251 	EXP 	New trial (rep=0, index=56): {'figure1': '86.BMP', 'corrAns': 'b'}
+1478.9426 	EXP 	crosshair: autoDraw = False
+1478.9426 	EXP 	crosshair: autoDraw = False
+1478.9426 	EXP 	image: image = '86.BMP'
+1478.9426 	EXP 	image: autoDraw = True
+1485.0275 	DATA 	Keypress: b
+1485.0337 	EXP 	image: autoDraw = False
+1485.0337 	EXP 	crosshair: text = '+'
+1485.0337 	EXP 	crosshair: autoDraw = True
+1488.0217 	EXP 	New trial (rep=0, index=57): {'figure1': '314.bmp', 'corrAns': 'a'}
+1488.0405 	EXP 	crosshair: autoDraw = False
+1488.0405 	EXP 	crosshair: autoDraw = False
+1488.0405 	EXP 	image: image = '314.bmp'
+1488.0405 	EXP 	image: autoDraw = True
+1503.9954 	DATA 	Keypress: b
+1504.0007 	EXP 	image: autoDraw = False
+1504.0007 	EXP 	crosshair: text = '+'
+1504.0007 	EXP 	crosshair: autoDraw = True
+1506.9999 	EXP 	New trial (rep=0, index=58): {'figure1': '207.bmp', 'corrAns': 'a'}
+1507.0165 	EXP 	crosshair: autoDraw = False
+1507.0165 	EXP 	image: image = '207.bmp'
+1507.0165 	EXP 	image: autoDraw = True
+1530.9998 	EXP 	image: autoDraw = False
+1530.9998 	EXP 	crosshair: text = '+'
+1530.9998 	EXP 	crosshair: autoDraw = True
+1531.0013 	DATA 	Keypress: a
+1533.9917 	EXP 	New trial (rep=0, index=59): {'figure1': '138.bmp', 'corrAns': 'a'}
+1534.0121 	EXP 	crosshair: autoDraw = False
+1534.0121 	EXP 	crosshair: autoDraw = False
+1534.0121 	EXP 	image: image = '138.bmp'
+1534.0121 	EXP 	image: autoDraw = True
+1567.3288 	DATA 	Keypress: a
+1567.3345 	EXP 	image: autoDraw = False
+1567.3345 	EXP 	crosshair: text = '+'
+1567.3345 	EXP 	crosshair: autoDraw = True
+1570.3331 	EXP 	New trial (rep=0, index=60): {'figure1': '145.bmp', 'corrAns': 'a'}
+1570.3497 	EXP 	crosshair: autoDraw = False
+1570.3497 	EXP 	image: image = '145.bmp'
+1570.3497 	EXP 	image: autoDraw = True
+1600.1952 	DATA 	Keypress: b
+1600.1991 	EXP 	image: autoDraw = False
+1600.1991 	EXP 	crosshair: text = '+'
+1600.1991 	EXP 	crosshair: autoDraw = True
+1603.2277 	EXP 	crosshair: autoDraw = False
+1603.2277 	EXP 	crosshair: autoDraw = False
+1603.2277 	EXP 	thankyou_screen: autoDraw = True
+1705.0404 	DATA 	Keypress: escape
+1705.5161 	EXP 	window1: mouseVisible = True
